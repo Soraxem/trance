@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AP33771C")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/AP33771CFBZ-13-FA01.kicad_sym")(options "")(descr ""))
+)

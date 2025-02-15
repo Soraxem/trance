@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "97dcea26-12d0-47d0-93b2-63cb902a6d29")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 17.78 107.95)
+		(size 142.24 82.55)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "886f8b9d-840c-463b-8a16-f5f2b6382dd1")
+		(property "Sheetname" "Output"
+			(at 17.78 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 17.78 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/97dcea26-12d0-47d0-93b2-63cb902a6d29"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 17.78)
+		(size 110.49 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba724520-7c5f-43b3-bb4e-a7dc7849453a")
+		(property "Sheetname" "Controller"
+			(at 167.64 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 167.64 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/97dcea26-12d0-47d0-93b2-63cb902a6d29"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 142.24 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c02b9e8d-14af-469c-b53e-ecca9aa53ffb")
+		(property "Sheetname" "Power"
+			(at 17.78 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 17.78 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/97dcea26-12d0-47d0-93b2-63cb902a6d29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
