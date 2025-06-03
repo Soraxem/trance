@@ -1,14 +1,17 @@
 
 $fa = $preview ? 1 : 1;
-$fs = $preview ? 0.1 : 0.1;
+$fs = $preview ? 0.3 : 0.2;
 
 thread = 3;
 thread_height = 6;
 thickness = 2; // try to use multibles of 0.4 because of the nozzle
 thickness_vector = [thickness, thickness, 1];
+tolerance = 0.2;
 
-size = [120, 80, 40];
+size = [120, 80, 30];
 radius = 10;
+
+pcb_mount = [100, 60];
 
 // Roundedcube module inspired by Daniel Upshaw
 module roundedcube(size = [1,1,1], radius = 0.5) {
@@ -48,7 +51,30 @@ module standoff() {
     }
 }
 
+module lid() {
+    
+    // Plate
+    translate([0,0,-thickness/2])
+    difference() {
+        roundedcube([size.x, size.y, thickness], radius);
+        // Screwholes
+        translate([50,0,0])cylinder(h=thickness+1,d=thread,center=true);
+        translate([-50,0,0])cylinder(h=thickness+1,d=thread,center=true);
+    }
+    
+    // Rim
+    translate([0,0,-thickness/2 - thickness])
+    difference() {
+        roundedcube([size.x - 2*thickness - 2*tolerance, size.y  - 2*thickness - 2*tolerance, thickness], radius - thickness - tolerance);
+        roundedcube([size.x - 4*thickness - 2*tolerance, size.y  - 4*thickness - 2*tolerance, thickness+1], radius - 2*thickness - tolerance);
+        
+        // Screw Standoff
+        cube([size.x, thread + 2*thickness + 2*tolerance, thickness+1], true);
+    }
+    
+}
 
+module base() {
 
 // Case
 difference() {
@@ -61,10 +87,10 @@ difference() {
 }
 
 // PCB mounting
-translate([50,30,thread_height+thickness])standoff();
-translate([-50,30,thread_height+thickness])standoff();
-translate([50,-30,thread_height+thickness])standoff();
-translate([-50,-30,thread_height+thickness])standoff();
+translate([pcb_mount.x/2, pcb_mount.y/2, thread_height+thickness])standoff();
+translate([-pcb_mount.x/2, pcb_mount.y/2, thread_height+thickness])standoff();
+translate([pcb_mount.x/2, -pcb_mount.y/2, thread_height+thickness])standoff();
+translate([-pcb_mount.x/2, -pcb_mount.y/2, thread_height+thickness])standoff();
 
 // Lid Mounting
 difference() {
@@ -88,3 +114,10 @@ translate([-50,0,size.z-thickness])thread(size.z-thickness*2, thread);
 
 }
 
+}
+
+translate([0,100,0])
+rotate([180,0,0])
+lid();
+
+base();
