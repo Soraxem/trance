@@ -4489,6 +4489,15 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER_PART_NUMBER" "568-NC3FAH1"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "21bfcf1d-0197-4520-942e-d0fbdbf699b9")
 		)
@@ -5286,6 +5295,15 @@
 				(hide yes)
 			)
 		)
+		(property "MOUSER_PART_NUMBER" "700-MAX485CUA"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14e5c5f6-3c5f-4b41-a501-54ec978dfe00")
 		)
@@ -5364,6 +5382,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "611-PTS645VL582"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -5697,6 +5724,15 @@
 			)
 		)
 		(property "Description" "Dual LED, common cathode on pin 2"
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "442-BLBUBGE204"
 			(at 241.3 69.85 0)
 			(effects
 				(font
