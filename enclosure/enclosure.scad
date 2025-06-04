@@ -72,6 +72,15 @@ module usb_c() {
     rotate([90,0,0])
     roundedcube([9.1,3.6,10], 1.1);
 }
+// Right angle PCB Buttton
+module button() {
+    translate([0,0,4.05])
+    rotate([90,0,-90])
+    difference() {
+        translate([1.25,0,0])cube([10,6.5,10], true);
+        translate([2.5,0,0])cube([10,4,20],true);
+    } 
+}
 
 module standoff() {
     difference() {
@@ -114,14 +123,18 @@ difference() {
     translate([0,0,size.z/2 + thickness])
     roundedcube([size.x - 2*thickness, size.y - 2*thickness, size.z], radius - thickness);
     
-    translate([5,-40,thread_height + pcb_thickness + thickness])
-    neutrik();
-    
     translate([33,-40,thread_height + pcb_thickness + thickness])
     neutrik();
     
     translate([-40,-40,thread_height + pcb_thickness + thickness])
     usb_c();
+    
+    translate([-60,13,thread_height + pcb_thickness + thickness])
+    button();
+    
+    translate([-60,23,thread_height + pcb_thickness + thickness + 4])
+    rotate([0,90,0])
+    cylinder(h = 10, d = 3, center = true);
     
 }
 
@@ -157,14 +170,16 @@ translate([-50,0,size.z-thickness])thread(size.z-thickness*2, thread);
 
 }
 
-translate([0,100,0])
-rotate([180,0,0])
+//translate([0,100,0])
+//rotate([180,0,0])
+
+translate([0,0,size.z+60*$t])
 lid();
 
 base();
 
 translate([0,0,-6 * $t])
-rotate_about_point([30 * $t,0,0],[0,-42,32])
+rotate_about_point([40 * $t,0,0],[0,-42,32])
 color("lime")translate([0, 0, thread_height + thickness])import("../pcb/wifi-dmx/wifi-dmx.stl");
 
 
