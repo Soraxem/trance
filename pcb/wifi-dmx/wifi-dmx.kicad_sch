@@ -2841,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 132.08) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efb1300-5199-4100-b38b-6d707de223e8")
+	)
+	(wire
+		(pts
 			(xy 34.29 134.62) (xy 48.26 134.62)
 		)
 		(stroke
@@ -3927,7 +3937,7 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "LED_RED"
 		(shape output)
 		(at 105.41 129.54 0)
 		(fields_autoplaced yes)
@@ -3939,7 +3949,7 @@
 		)
 		(uuid "a4060f72-7af5-435c-9e5b-650ff3337d40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.8423 129.54 0)
+			(at 116.4989 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,6 +3994,28 @@
 		(uuid "b709f919-d0ac-4436-aabf-276e09476aa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.2895 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_GREEN"
+		(shape output)
+		(at 105.41 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb1ecbca-34d1-486f-9539-5cb1216d92f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.9784 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" ""
+		(property "MOUSER_PART_NUMBER" "200-SSW11601TS"
 			(at 81.28 142.24 0)
 			(effects
 				(font
@@ -4263,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "75R"
 			(at 246.38 58.4199 0)
 			(effects
 				(font
@@ -4272,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 242.062 57.15 90)
 			(effects
 				(font
@@ -4291,6 +4323,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "71-CRCW040275R0JNEDC "
 			(at 243.84 57.15 0)
 			(effects
 				(font
@@ -4333,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "75R"
 			(at 241.3 45.7199 0)
 			(effects
 				(font
@@ -4342,7 +4383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 236.982 44.45 90)
 			(effects
 				(font
@@ -4361,6 +4402,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "71-CRCW040275R0JNEDC "
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -4485,7 +4535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 178.7652 130.81 0)
 			(effects
 				(font
@@ -4840,7 +4890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 191.4652 60.96 0)
 			(effects
 				(font
@@ -4919,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 195.072 44.45 90)
 			(effects
 				(font
@@ -5130,7 +5180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 71.12 90)
 			(effects
 				(font
@@ -5365,7 +5415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 29.972 69.85 90)
 			(effects
 				(font
@@ -5468,7 +5518,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" ""
+		(property "MOUSER_PART_NUMBER" "200-SSW11601TS"
 			(at 53.34 142.24 0)
 			(effects
 				(font
