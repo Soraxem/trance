@@ -14,6 +14,10 @@ radius = 10;
 pcb_mount = [100, 60];
 pcb_thickness = 1.6;
 
+
+mount_height = 4;
+mount_diameter = 2.5;
+
 // Roundedcube module inspired by Daniel Upshaw
 module roundedcube(size = [1,1,1], radius = 0.5) {
     // Create 4 cylinders for all corners of the cube, then the hull of them is made
@@ -126,6 +130,16 @@ difference() {
     translate([33,-40,thread_height + pcb_thickness + thickness])
     neutrik();
     
+    // Mounting Front
+    translate([0,-size.y/2,mount_height-mount_diameter/2])
+    rotate([0,90,0])
+    cylinder(h = 31, d = mount_diameter, center = true);
+
+    // Mounting Back
+    translate([0,size.y/2,mount_height-mount_diameter/2])
+    rotate([0,90,0])
+    cylinder(h = 31, d = mount_diameter, center = true);
+    
     // SMA Antenna Connector
     translate([-40,-40,thread_height + pcb_thickness + thickness + 17])
     rotate([90,0,0])
@@ -176,8 +190,37 @@ translate([-50,0,size.z-thickness])thread(size.z-thickness*2, thread);
 
 }
 
+
+module mount() {
+    translate([0,0,-thickness/2])
+    cube([30,size.y,thickness], true);
+    
+    translate([0,-size.y/2,mount_height-mount_diameter/2])
+    rotate([0,90,0])
+    cylinder(h = 30, d = mount_diameter-tolerance, center = true);
+    
+    translate([0,-size.y/2 - thickness/2, (thickness + mount_height -tolerance/2)/2-thickness])
+    cube([30,thickness, thickness + mount_height -tolerance/2], true);
+    
+    
+    
+    translate([0,size.y/2,mount_height-mount_diameter/2])
+    rotate([0,90,0])
+    cylinder(h = 30, d = mount_diameter-tolerance*2, center = true);
+    
+    translate([0,size.y/2 + thickness/4, (thickness + mount_height -tolerance/2)/2-thickness])
+    cube([30,thickness/2, thickness + mount_height -tolerance/2], true);
+    
+    
+    translate([0,size.y/2 + thickness/2, mount_height])
+    rotate([-30,0,0])
+    cube([30,thickness/2, 4], true);
+}
+
 //translate([0,100,0])
 //rotate([180,0,0])
+
+
 
 translate([0,0,size.z+60*$t])
 lid();
@@ -187,5 +230,8 @@ base();
 translate([0,0,-6 * $t])
 rotate_about_point([40 * $t,0,0],[0,-42,32])
 color("lime")translate([0, 0, thread_height + thickness])import("../pcb/wifi-dmx/wifi-dmx.stl");
+
+color("cyan")mount();
+
 
 
