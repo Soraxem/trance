@@ -126,12 +126,18 @@ difference() {
     translate([33,-40,thread_height + pcb_thickness + thickness])
     neutrik();
     
+    // SMA Antenna Connector
+    translate([-40,-40,thread_height + pcb_thickness + thickness + 17])
+    rotate([90,0,0])
+    cylinder(h = 20, d = 5.3, center = true);
+    
     translate([-40,-40,thread_height + pcb_thickness + thickness])
     usb_c();
     
     translate([-60,13,thread_height + pcb_thickness + thickness])
     button();
     
+    // State LED
     translate([-60,23,thread_height + pcb_thickness + thickness + 4])
     rotate([0,90,0])
     cylinder(h = 10, d = 3, center = true);
