@@ -141,7 +141,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "10ca4009-f784-4339-a276-843a6be51da9")
-		(at 179.245 104.905)
+		(at 151 73)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
@@ -1991,12 +1991,12 @@
 		(uuid "5d3aa6d7-f26d-4ccd-95f8-2dc9c177e2b6")
 		(at 142.5 51)
 		(property "Reference" "U2"
-			(at 0.032 -2.2064 0)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "6ec7ba22-2416-4ccc-8af9-23393d3fc2de")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2922,7 +2922,7 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23-5"
 		(layer "F.Cu")
 		(uuid "76872145-abcd-464d-9c87-3b0632dc01b0")
-		(at 186.045 103.95)
+		(at 157.5 72)
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U3"
@@ -3712,11 +3712,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b0094ccb-91da-4e0a-ad9a-02cbbd4bd13d")
-		(at 162.595 106.475)
+		(at 159 66.8625 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 -1.43 0)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "60277115-02fa-4f2b-acbc-e4ace65a5ce5")
 			(effects
@@ -3727,7 +3727,7 @@
 			)
 		)
 		(property "Value" "0u1F"
-			(at 0 1.43 0)
+			(at 0 -3 180)
 			(layer "F.Fab")
 			(uuid "a5e10bed-ff1f-499e-ad30-89c97c7e6c8d")
 			(effects
@@ -3738,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c2b6017-aaaa-4815-9b9c-f700d9733685")
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a78c353-4240-4efa-9388-b9a0355709e3")
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3780,16 +3780,6 @@
 		(sheetfile "eurolite-led-7c-7.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.146267 -0.51)
-			(end 0.146267 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "451a272c-d8be-49a5-9029-a30cdc1b396a")
-		)
-		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
 			(stroke
@@ -3800,14 +3790,14 @@
 			(uuid "afab08a5-fb8b-48b8-8ec2-27fb205a4be8")
 		)
 		(fp_line
-			(start -1.65 -0.73)
-			(end 1.65 -0.73)
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "e3c3672f-76b1-4c69-8d34-0b34308a6278")
+			(layer "F.SilkS")
+			(uuid "451a272c-d8be-49a5-9029-a30cdc1b396a")
 		)
 		(fp_line
 			(start -1.65 0.73)
@@ -3820,16 +3810,6 @@
 			(uuid "25057f14-d0f8-468e-a0a7-155cf6375f1d")
 		)
 		(fp_line
-			(start 1.65 -0.73)
-			(end 1.65 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a9a26f13-a8b8-490f-9345-65ac67d95bcc")
-		)
-		(fp_line
 			(start 1.65 0.73)
 			(end -1.65 0.73)
 			(stroke
@@ -3840,14 +3820,24 @@
 			(uuid "f789e5e6-54f8-484b-ad68-9086ac194e73")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start -1.65 -0.73)
+			(end 1.65 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "5853354a-23b2-4f29-8d3e-9b813f712ac6")
+			(layer "F.CrtYd")
+			(uuid "e3c3672f-76b1-4c69-8d34-0b34308a6278")
+		)
+		(fp_line
+			(start 1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a9a26f13-a8b8-490f-9345-65ac67d95bcc")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -3860,16 +3850,6 @@
 			(uuid "b6d71b2e-f28a-4b9f-98b3-905349ea2d29")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "149dfc09-bf48-4255-b02d-2733b9155d39")
-		)
-		(fp_line
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
@@ -3879,8 +3859,28 @@
 			(layer "F.Fab")
 			(uuid "c66da4d1-dd30-4e93-80aa-1696302696e5")
 		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5853354a-23b2-4f29-8d3e-9b813f712ac6")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "149dfc09-bf48-4255-b02d-2733b9155d39")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "5eb83cc3-7e23-4539-b90c-93085c28cd92")
 			(effects
@@ -3891,7 +3891,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0)
+			(at -0.8625 0 270)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3900,7 +3900,7 @@
 			(uuid "c62ab67a-a443-4111-951e-912790ba0232")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0)
+			(at 0.8625 0 270)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5121,7 +5121,7 @@
 		(descr "USB TYPE C, VERT RCPT PCB, SMT, https://gct.co/files/drawings/usb4115.pdf")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "J3"
-			(at 0 -3.2 0)
+			(at 0 -3 0)
 			(layer "F.SilkS")
 			(uuid "59ba419c-4a3e-42ee-94ba-5c7d2c3e51d0")
 			(effects
@@ -6259,7 +6259,7 @@
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d2c86ded-2184-40ac-9e85-12922cd619dc")
-		(at 177.995 110.855)
+		(at 131 82.5)
 		(descr "JST PH series connector, B4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J2"
@@ -6987,6 +6987,22 @@
 		(layer "B.Cu")
 		(net 29)
 		(uuid "43c99da6-43b8-4a23-97ca-12ba0e81d80f")
+	)
+	(segment
+		(start 159 66.1375)
+		(end 158.7625 65.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "1192667e-cc29-41a1-bba7-587382561c5a")
+	)
+	(segment
+		(start 158.7625 65.9)
+		(end 156.85 65.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "db353349-6c29-4c49-975c-d5f535c5fbcd")
 	)
 	(segment
 		(start 142 53.5)
