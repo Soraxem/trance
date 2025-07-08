@@ -5,7 +5,7 @@
 	(uuid "8846f2fa-8392-4ca0-b0ea-63a42c0612b6")
 	(paper "A3")
 	(title_block
-		(title "TRANCE Devboard")
+		(title "TRANCE USB-DMX")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
@@ -4392,6 +4392,12 @@
 		(uuid "3ba99728-24dd-44da-bd7d-50725ff0ba50")
 	)
 	(junction
+		(at 214.63 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4049c52e-d5a2-4150-8065-d206e8688dde")
+	)
+	(junction
 		(at 321.31 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4520,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "08be863c-c6b6-4f1d-8ad6-a42fc90a0b1d")
+	)
+	(wire
+		(pts
+			(xy 214.63 195.58) (xy 214.63 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c7ce96-11f0-41c1-8def-c12afa86bc45")
 	)
 	(wire
 		(pts
@@ -4803,6 +4819,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 217.17) (xy 248.92 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547c1fbe-c41f-43d0-9eeb-c277de2c8cd6")
+	)
+	(wire
+		(pts
 			(xy 232.41 204.47) (xy 238.76 204.47)
 		)
 		(stroke
@@ -4820,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "5854da70-bb19-4ca0-a5f5-fce236ebf19d")
+	)
+	(wire
+		(pts
+			(xy 214.63 203.2) (xy 214.63 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b30847-f6e9-4465-9994-92697e048308")
 	)
 	(wire
 		(pts
@@ -5053,6 +5089,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 215.9) (xy 214.63 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993daae6-088f-415e-a410-51c1070a3455")
+	)
+	(wire
+		(pts
 			(xy 284.48 179.07) (xy 248.92 179.07)
 		)
 		(stroke
@@ -5070,16 +5116,6 @@
 			(type default)
 		)
 		(uuid "9d51e92b-25bc-4636-a846-05f89f07f26f")
-	)
-	(wire
-		(pts
-			(xy 232.41 194.31) (xy 238.76 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e98c845-0259-455c-888e-5342f2a46f1e")
 	)
 	(wire
 		(pts
@@ -5143,6 +5179,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 205.74) (xy 214.63 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cc6142-a1bb-4c6a-ad8a-62d2046465e5")
+	)
+	(wire
+		(pts
 			(xy 77.47 71.12) (xy 77.47 73.66)
 		)
 		(stroke
@@ -5180,6 +5226,16 @@
 			(type default)
 		)
 		(uuid "b5b91bc5-88ec-4de2-a1a1-cd66508d9e64")
+	)
+	(wire
+		(pts
+			(xy 214.63 194.31) (xy 238.76 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b640858a-a140-4b03-9313-df77d55f5a09")
 	)
 	(wire
 		(pts
@@ -5280,6 +5336,16 @@
 			(type default)
 		)
 		(uuid "ca317440-e0f1-4723-adb7-8a472aacfce3")
+	)
+	(wire
+		(pts
+			(xy 214.63 205.74) (xy 214.63 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb891186-9fcd-4337-aa4d-765aac9e3f4e")
 	)
 	(wire
 		(pts
@@ -5684,8 +5750,8 @@
 		)
 	)
 	(global_label "1"
-		(shape input)
-		(at 232.41 194.31 180)
+		(shape output)
+		(at 205.74 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5695,7 +5761,7 @@
 		)
 		(uuid "3706ec4f-9eba-447d-93ba-fd39e6c8e6ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.2153 194.31 0)
+			(at 201.5453 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6146,7 @@
 		)
 	)
 	(global_label "1"
-		(shape output)
+		(shape input)
 		(at 316.23 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6177,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086a17c4-ff25-42be-be41-4ea4c538505e")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 300.99 54.6099 0)
 			(effects
 				(font
@@ -6240,7 +6306,7 @@
 		(instances
 			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1512dd20-3fa1-4f34-9ce1-f49f8b2556d4")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -6498,7 +6564,7 @@
 		(instances
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6789,7 +6855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c92b240-046d-477c-82b7-06038c11b539")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 302.26 66.0399 0)
 			(effects
 				(font
@@ -6852,7 +6918,7 @@
 		(instances
 			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6945,7 +7011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "543c15af-b08e-4fb5-8485-8c13a82c8348")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 337.4233 53.34 0)
 			(effects
 				(font
@@ -7197,7 +7263,7 @@
 		(instances
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c5687e3-ac21-4a7f-94a0-0048300c2eec")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -7775,7 +7841,7 @@
 		(instances
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7929,6 +7995,85 @@
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ad1a53-740c-43da-9d99-4eaaebd21ab6")
+		(property "Reference" "R6"
+			(at 217.17 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 217.17 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 212.852 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+			(at 214.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca9c394c-928f-4541-8f65-aacc21d652ca")
+		)
+		(pin "1"
+			(uuid "e972c913-d2d5-4feb-95e7-ea6c3f3aad0c")
+		)
+		(instances
+			(project "usb-dmx"
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7d101c-eba1-4f22-9970-bfd5a417b232")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 140.97 187.9599 0)
 			(effects
 				(font
@@ -8506,7 +8651,7 @@
 		(instances
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8120d1f-a425-462e-9f23-4dbe61fd313e")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 134.62 200.6599 0)
 			(effects
 				(font
@@ -8651,7 +8796,86 @@
 		(instances
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "C3")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1a2b7a-8b0b-49b8-92df-e6c7c025912b")
+		(property "Reference" "R5"
+			(at 217.17 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k1"
+			(at 217.17 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 216.408 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+			(at 214.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b46a4b6-a9f7-4674-ae9d-54960d2fe1e5")
+		)
+		(pin "1"
+			(uuid "6297fdce-7872-4bea-8950-e8562ba55c9e")
+		)
+		(instances
+			(project "usb-dmx"
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8799,7 +9023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff6674e7-fbab-4e79-ac56-6e35490215d0")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 372.11 82.5499 0)
 			(effects
 				(font
@@ -8862,7 +9086,7 @@
 		(instances
 			(project "devboard"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
