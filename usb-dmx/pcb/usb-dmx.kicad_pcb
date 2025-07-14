@@ -195,6 +195,32 @@
 				)
 			)
 		)
+		(property "MOUSER_PART_NUMBER" "640-USB4110-GF-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47efbba8-b4aa-4a62-8bbe-6d13e59e6cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7db7eaeb-f121-4156-8de1-9f165e8941ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/70d7a68f-a0dd-4564-a20d-4c633d5ec3a8")
 		(sheetname "/")
@@ -806,12 +832,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e043b342-4589-4431-9429-9936a43da8b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ddee2a-d4e2-4315-bb1e-cc3da642c0db")
 			(effects
 				(font
 					(size 1 1)
@@ -1021,12 +1060,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6af600a9-a6b7-4a01-8e59-4f3e93745b65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2371b5-2cc1-49c3-a579-4bddc17991bd")
 			(effects
 				(font
 					(size 1 1)
@@ -1236,12 +1288,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "296764c8-449e-484e-997f-077620ce6175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe49590-7333-46cf-a9d1-94df6c43590a")
 			(effects
 				(font
 					(size 1 1)
@@ -1446,6 +1511,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a51ffd7-fb3a-4fd8-b736-41565857feae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "485-4960"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7143ae1-9f94-4ff9-b546-97bf1b58fce0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1728,6 +1819,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5bbce08-3078-44c8-8c47-b3042bc0100b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71118d1a-0203-467a-8238-6af0f7d993cc")
 			(effects
 				(font
 					(size 1 1)
@@ -2702,12 +2806,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL10A475KO8NNNC"
+		(property "MOUSER_PART_NUMBER" "187-CL10A475KP8NNWC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "034beb93-b82b-4df2-bed4-b0922b134cc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36c50449-381c-44ed-871f-537281d5a1a7")
 			(effects
 				(font
 					(size 1 1)
@@ -2921,6 +3038,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a9b11b9-0337-4c93-b94c-e11390ea37b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b3b0a2-2851-44b7-ae0b-4a83c104b04b")
 			(effects
 				(font
 					(size 1 1)
@@ -3204,12 +3334,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5c3a137-3ea0-465d-8db1-70919e4655e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6644d42f-0ea9-4289-9428-bbf83be30fd8")
 			(effects
 				(font
 					(size 1 1)
@@ -3419,12 +3562,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80ac8f60-1b2f-4b0b-8c12-ff58878853fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c25ee6c3-b1bf-4940-83d9-db1cb6877260")
 			(effects
 				(font
 					(size 1 1)
@@ -3628,6 +3784,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6c6f4c6-21fe-4263-88e5-4fc257f6a904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "511-ST485EBDR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6111cf26-03ba-4358-9ca1-fbf644b284b2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4051,6 +4233,19 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86e0deb3-106e-4ee7-9108-6bcf3d115783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1512dd20-3fa1-4f34-9ce1-f49f8b2556d4")
 		(sheetname "/")
 		(sheetfile "usb-dmx.kicad_sch")
@@ -4461,6 +4656,19 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dcdcee7-7ea3-4dc4-820d-8c639e0cf24a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/65465532-5459-4fed-a6d4-fc59c8fd4f1f")
 		(sheetname "/")
 		(sheetfile "usb-dmx.kicad_sch")
@@ -4660,12 +4868,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47adb9c5-1b37-4159-8bf2-4ac4c5b40edb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "626a9219-fc1b-4afa-a5c7-8ed545c5372b")
 			(effects
 				(font
 					(size 1 1)
@@ -4875,12 +5096,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94a4e977-faf0-4a6e-ad24-4dc5ddf45e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f190a17-0ade-490e-861e-952f1c38a67c")
 			(effects
 				(font
 					(size 1 1)
@@ -5088,12 +5322,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B105KA8NNND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11be23ae-b1cd-436d-9bcd-6927b4d583a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "440d7dc9-ecba-4067-b3c9-ee256c604f8c")
 			(effects
 				(font
 					(size 1 1)
@@ -5303,12 +5550,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dfa74bbd-50e2-446d-80a4-40a140f76f83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24347474-90e1-4e17-9b8f-904018f14ecd")
 			(effects
 				(font
 					(size 1 1)
@@ -5531,6 +5791,19 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f281253a-3c94-47cf-b721-e0bd0712f0f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4f09e554-6c9e-4130-bfe6-80992af41a48")
 		(sheetname "/")
@@ -5708,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/480372200?display=pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5730,6 +6003,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "206733db-d084-4c18-bda4-b7e8b25fac11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "538-48037-2200"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18d114be-4bb9-4382-95e9-3b82424b9807")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6177,12 +6476,25 @@
 				)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54626a3e-ff24-4fa5-b033-999318384495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73087eac-d4a7-44df-a092-73f6794396f9")
 			(effects
 				(font
 					(size 1 1)
@@ -6398,6 +6710,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63b0fc0d-0693-421d-8ba1-b4b12a1c4ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c49da62-1afe-4b25-bedc-76c749438487")
 			(effects
 				(font
 					(size 1 1)
