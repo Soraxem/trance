@@ -1,56 +1,115 @@
 <!DOCTYPE html>
 <html>
-	  <head>
-		  <title>TRANCE</title>
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  </head>
+<head>
+	<title>TRANCE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-	  <body>
-	  		<div class="navbar">
-	  			<h1>TRANCE</h1>
-	  		</div>
-		  <div id='content'>
-			  
-			  
-		  </div>
-	  </body>
+<body>
+	<div class="navbar">
+		<h1>TRANCE</h1>
+		<small>Woho, its got a GUI!</small>
+	</div>
+	<div class='content'>
+		
+		<fieldset>
+			<legend>Status</legend>
+			<p>WIFI: unconnected</p>
+			<p>Ascn: no Signal</p>
+			<p>MQTT: faulty config</p>
+		</fieldset>
 
-	  <style>
-		  .content {
-			  margin: 20px;
-		  }
+		<h1>Settings</h1>
 
-		  body {
-		  	margin: 0px;
-		  }
+		<fieldset>
+			<legend>Wifi</legend>
+			<form>
+				<label for="ssid">SSID:</label>
+				<input type="text" id="ssid" name="ssid" value="trance-testwifi"><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password"><br>
+				<input type="submit" value="Submit">
+			</form>
+		</fieldset>
 
-		  .navbar {
-		  	padding: 15px;
-		  	background-color: lightgray;
-		  }
+		<fieldset>
+			<legend>Network</legend>
+			<form>
+				<input type="radio" id="dhcp" name="ip_type" value="dhcp">
+				<label for="dhcp">DHCP</label><br>
+				<input type="radio" id="fixed" name="ip_type" value="fixed">
+				<label for="fixed">Fixed IP</label><br>
+				<label for="ip">IP:</label>
+				<input type="text" id="ip" name="ip"><br>
+				<label for="hostname">Hostname:</label>
+				<input type="text" id="hostname" name="hostname"><br>
+				<input type="submit" value="Submit">
+			</form>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Connectivity</legend>
+			<form>
+				<input type="checkbox" id="ascn" name="connections" value="ascn">
+				<label for="ascn">Ascn / E31.1</label><br>
+				<input type="checkbox" id="artnet" name="connections" value="artnet">
+				<label for="artnet">Artnet</label><br>
+				<input type="checkbox" id="mqtt" name="connections" value="mqtt">
+				<label for="mqtt">Mqtt</label><br>
+				<input type="submit" value="Submit">
+			</form>
+		</fieldset>
 
-		  h1 {
-		  	margin: 0px;
-		  }
+		<fieldset>
+			<legend>Ascn / E31.1</legend>
+			<form>
+				<label for="universe">Universe:</label>
+				<input type="number" id="universe" name="universe" value="19"><br>
+			</form>
+		</fieldset>
 
-		   body {
-  background-color: lightblue;
-}
+	</div>
+</body>
 
-@media screen and (min-width: 400px) {
-  body {
-    background-color: lightgreen;
-  }
-}
+<style>
+
+	body {
+		margin: 0px;
+	}
+
+	.navbar {
+		padding: 23px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	}
+
+	.content, fieldset, h1 {
+		margin: 20px;
+	}
+
+	.navbar h1 {
+		margin: 0px;
+	}
+
+	* {
+		font-family: Arial;
+	}
+
+	@media screen and (min-width: 800px) {
+		.content {
+			margin-left: 12rem;
+			margin-right: 12rem;
+		}
+	}
+
+	@media screen and (min-width: 1600px) {
+		.content {
+			margin-left: 30rem;
+			margin-right: 30rem;
+		}
+	}
 
 
-@media screen and (min-width: 800px) {
-  body {
-    background-color: lavender;
-  }
-}
+	</style>
 
-
-	  </style>
-
-	  </html>
+</html>
