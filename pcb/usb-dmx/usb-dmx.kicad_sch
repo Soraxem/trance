@@ -5,7 +5,9 @@
 	(uuid "8846f2fa-8392-4ca0-b0ea-63a42c0612b6")
 	(paper "A3")
 	(title_block
-		(title "TRANCE USB-DMX")
+		(title "USB-DMX")
+		(rev "1")
+		(company "Author: Samuel Hafen")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
@@ -6288,13 +6290,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 298.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 298.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6365,6 +6375,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 248.92 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "511-ST485EBDR"
+			(at 248.92 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -6543,6 +6569,14 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "10c33bfb-0f4e-418d-a956-d8348d68c276")
 		)
@@ -6623,13 +6657,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 82.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6900,13 +6942,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B105KA8NNND"
 			(at 298.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 298.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6986,6 +7036,14 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 234.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a79b37d-518d-4513-b0ab-37d82c4c280b")
 		)
@@ -7063,6 +7121,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "62"
@@ -7547,6 +7613,14 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 123.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc8df345-0f1f-447d-82ca-61d8c3a9defc")
 		)
@@ -7619,6 +7693,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "640-USB4110-GF-A"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A1"
@@ -7736,13 +7827,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 284.48 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 284.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7821,6 +7920,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 220.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7902,6 +8009,22 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 73.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "485-4960"
+			(at 73.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "23c8ad15-5b78-440f-bcd6-f37920396e75")
 		)
@@ -7976,13 +8099,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8055,13 +8186,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 214.63 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 214.63 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8143,6 +8282,14 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "367d0066-1848-44b4-90b7-02450cf59c30")
 		)
@@ -8193,7 +8340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/480372200?display=pdf"
 			(at 327.66 195.58 0)
 			(effects
 				(font
@@ -8209,6 +8356,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" "538-48037-2200"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8554,13 +8717,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL10A475KO8NNNC"
+		(property "MOUSER_PART_NUMBER" "187-CL10A475KP8NNWC"
 			(at 203.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8633,13 +8804,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-10K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-10K-E3"
 			(at 138.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 138.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8778,13 +8957,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 130.81 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 130.81 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8857,13 +9044,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "71-CRCW0402-5.1K-E3"
+		(property "MOUSER_PART_NUMBER" "71-CRCW0603-5.1K-E3"
 			(at 214.63 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 214.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9068,13 +9263,21 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER_PART_NUMBER" "187-CL05F104ZO5NNND"
+		(property "MOUSER_PART_NUMBER" "187-CL10B104KA8NNNC"
 			(at 368.3 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 368.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

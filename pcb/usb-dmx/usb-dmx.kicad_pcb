@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A5")
+	(title_block
+		(title "USB-DMX")
+		(date "2025-07-11")
+		(rev "1")
+		(company "Author: Samuel Hafen")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -6589,6 +6595,31 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "7170a4a4-c0b6-4480-a631-ba3c84e99fcb")
+	)
+	(gr_text "DESIGNED BY SAMUEL HAFEN"
+		(at 100 93 0)
+		(layer "B.SilkS")
+		(uuid "24d887f4-ffd8-4bb2-84bf-aed4abf4a284")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.09375)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "TRANCE\nUSB-DMX\nRev: 1"
+		(at 100 74 0)
+		(layer "B.SilkS")
+		(uuid "7900f604-57bd-4717-b47d-4f2adf9335b7")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
 	)
 	(dimension
 		(type orthogonal)
