@@ -9,14 +9,14 @@ Librarys:
 Upload Settings:
 Board: ESP32-S3-USB-OTG
 Upload Mode: UART0 / Hardware CDC
-USB Mode: USB-OTG
+USB Mode: Hardware CDC and JTAG
 
 Author: Samuel Hafen
 
 */
 
 // Comment or uncomment this line to enable/disable debugging
-//#define DEBUG
+#define DEBUG
 // Create macros for serial debugging
 #ifdef DEBUG
   #define DEBUG_PRINT(x)  Serial.print(x)
@@ -40,28 +40,61 @@ void setup() {
   #ifdef DEBUG
     Serial.begin(115200);
   #endif
+  DEBUG_PRINTLN("-- Start Debugging --");
 
+  load_network_preferences();
+  start_wifi();
+
+}
+
+// Load Network Preferences, start_wifi has to be run to apply these Preferences
+void load_network_preferences() {
+  // Loading Network Preferences
+  preferences.begin("network", true);
+  bool dhcp = preferences.getBool("dhcp", true);
+  String ip = preferences.getString("ip", "192.168.1.10");
+  String gateway = preferences.getString("gateway", "192.168.1.1");
+  String subnet = preferences.getString("subnet", "255.255.0.0");
+  String hostname = preferences.getString("hostname", "trance");
+  preferences.end();
+  
+  // Apply Network Preferences
+  WiFi.setHostname(hostname.c_str());
+
+  // Set Static ip if DHCP is disabled
+  if (!dhcp) {
+    WiFi.config(
+      IPAddress().fromString(ip),
+      IPAddress().fromString(gateway),
+      IPAddress().fromString(subnet)
+    );
+  } else {
+    WiFi.config(0U, 0U, 0U);
+  }
+}
+
+// Load WiFi Preferences and start 
+void start_wifi() {
   // Loading wifi preferences
   preferences.begin("wifi", true);
-  String ssid = preferences.getString("ssid", ""); 
-  String password = preferences.getString("password", "");
+  String ssid = preferences.getString("ssid", "t"); 
+  String password = preferences.getString("password", "t");
   preferences.end();
+
+  // End previous Connection attemps
+  WiFi.disconnect(true);
 
   // Add Listeners to wifi connection Events
   WiFi.onEvent(wifi_connected, ARDUINO_EVENT_WIFI_STA_CONNECTED);
-  WiFi.onEvent(wifi_disconnected, ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
+  WiFi.onEvent(wifi_fail, ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
   
   // Start to connect with these Credentials
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid.c_str(), password.c_str());
-
-  // TODO: Loading Network Preferences
-  WiFi.setHostname("trance");
-
 }
 
 // Open a AP when wifi connection is interrupted.
-void wifi_disconnected(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
+void wifi_fail(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
   DEBUG_PRINTLN("WIFI: Not able to connect, switching to AP STA mode");
   WiFi.mode(WIFI_AP_STA);
 }
