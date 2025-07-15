@@ -8,12 +8,13 @@
 <body>
 	<div class="navbar">
 		<h1>TRANCE</h1>
-		<small>Woho, its got a GUI!</small>
+		<small>Revision 1</small>
 	</div>
 	<div class='content'>
 		
+		<h1>Status</h1>
+
 		<fieldset>
-			<legend>Status</legend>
 			<p>WIFI: unconnected</p>
 			<p>Ascn: no Signal</p>
 			<p>MQTT: faulty config</p>
@@ -25,7 +26,7 @@
 			<legend>Wifi</legend>
 			<form>
 				<label for="ssid">SSID:</label>
-				<input type="text" id="ssid" name="ssid" value="trance-testwifi"><br>
+				<input type="text" id="ssid" name="ssid" value="trance-factory"><br>
 				<label for="password">Password:</label>
 				<input type="password" id="password" name="password"><br>
 				<input type="submit" value="Submit">
@@ -35,14 +36,14 @@
 		<fieldset>
 			<legend>Network</legend>
 			<form>
-				<input type="radio" id="dhcp" name="ip_type" value="dhcp">
+				<input type="radio" id="dhcp" name="ip_type" value="dhcp" checked>
 				<label for="dhcp">DHCP</label><br>
 				<input type="radio" id="fixed" name="ip_type" value="fixed">
 				<label for="fixed">Fixed IP</label><br>
 				<label for="ip">IP:</label>
-				<input type="text" id="ip" name="ip"><br>
+				<input type="text" id="ip" name="ip" value="192.168.0.1"><br>
 				<label for="hostname">Hostname:</label>
-				<input type="text" id="hostname" name="hostname"><br>
+				<input type="text" id="hostname" name="hostname" value="trance"><br>
 				<input type="submit" value="Submit">
 			</form>
 		</fieldset>
@@ -50,7 +51,7 @@
 		<fieldset>
 			<legend>Connectivity</legend>
 			<form>
-				<input type="checkbox" id="ascn" name="connections" value="ascn">
+				<input type="checkbox" id="ascn" name="connections" value="ascn" checked>
 				<label for="ascn">Ascn / E31.1</label><br>
 				<input type="checkbox" id="artnet" name="connections" value="artnet">
 				<label for="artnet">Artnet</label><br>
@@ -93,6 +94,18 @@
 
 	* {
 		font-family: Arial;
+	}
+
+	input[type=text], input[type=password], input[type=number], input[type=submit], input[type=reset], select {
+  		width: 100%;
+  		padding: 12px;
+  		display: inline-block;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+	}
+
+	input {
+		margin: 8px 0;
 	}
 
 	@media screen and (min-width: 800px) {
