@@ -16,6 +16,17 @@ Here is the definition of the minimum viable product for this project in form of
   - setting address
   - setting unverse
 
+## LED States
+
+- Red -> System
+- Blue -> Wifi
+  - Pulsing -> AP mode
+  - Blinking -> Disconnected
+  - Static -> Connected
+- Green -> Communication
+  - Blinking -> Stopped
+  - Static -> Connected
+
 ## Product Variations
 
 Same Housing, different components.
