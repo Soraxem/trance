@@ -3,8 +3,8 @@
 Firmware for the Trance hardware.
 
 Prequisites:
-Boards: esp32, 3.2.1
-Librarys: 
+Boards: esp32 v3.2.1
+Librarys: ESPAsyncWebServer v3.7.10, AsyncTCP v3.4.5
 
 Upload Settings:
 Board: ESP32-S3-USB-OTG
@@ -14,6 +14,8 @@ USB Mode: Hardware CDC and JTAG
 Author: Samuel Hafen
 
 */
+
+
 
 // Comment or uncomment this line to enable/disable debugging
 #define DEBUG
@@ -33,6 +35,13 @@ Preferences preferences;
 // Library for connecting to Wifi networks
 #include <WiFi.h>
 
+// Resources for Captive Portal and Configuration
+#include <DNSServer.h>
+#include <AsyncTCP.h>
+#include <ESPAsyncWebServer.h>
+static DNSServer dnsServer;
+static AsyncWebServer server(80);
+
 // Device initialisation
 void setup() {
 
@@ -45,6 +54,18 @@ void setup() {
   load_network_preferences();
   start_wifi();
 
+  server.on("/", HTTP_GET, on_config);
+  server.onNotFound(onRequest);
+  server.begin();
+
+}
+
+void onRequest(AsyncWebServerRequest *request){
+  request->redirect("http://" + WiFi.softAPIP().toString() );
+}
+
+void on_config(AsyncWebServerRequest *request){
+  request->send(200, "text/plain", "Hello World!");
 }
 
 // Load Network Preferences, start_wifi has to be run to apply these Preferences
@@ -68,9 +89,7 @@ void load_network_preferences() {
       IPAddress().fromString(gateway),
       IPAddress().fromString(subnet)
     );
-  } else {
-    WiFi.config(0U, 0U, 0U);
-  }
+  } 
 }
 
 // Load WiFi Preferences and start 
@@ -87,6 +106,7 @@ void start_wifi() {
   // Add Listeners to wifi connection Events
   WiFi.onEvent(wifi_connected, ARDUINO_EVENT_WIFI_STA_CONNECTED);
   WiFi.onEvent(wifi_fail, ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
+  WiFi.onEvent(ap_start, ARDUINO_EVENT_WIFI_AP_START);
   
   // Start to connect with these Credentials
   WiFi.mode(WIFI_STA);
@@ -96,6 +116,7 @@ void start_wifi() {
 // Open a AP when wifi connection is interrupted.
 void wifi_fail(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
   DEBUG_PRINTLN("WIFI: Not able to connect, switching to AP STA mode");
+  WiFi.softAP("trance-config");
   WiFi.mode(WIFI_AP_STA);
 }
 
@@ -105,9 +126,15 @@ void wifi_connected(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
   WiFi.mode(WIFI_STA);
 }
 
+void ap_start(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
+  DEBUG_PRINTLN("WIFI: Soft AP started, Starting DNS");
+  //DEBUG_PRINTLN("WIFI: Soft AP IP is: %s", WiFi.softAPIP());
+  dnsServer.start(53, "*", WiFi.softAPIP());
+}
+
 void loop() {
-  // put your main code here, to run repeatedly:
-  
+  // Handle DNS requests for the Captive Portal
+  dnsServer.processNextRequest();
 }
 
 // Device Reset
