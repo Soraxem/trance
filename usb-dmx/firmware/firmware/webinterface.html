@@ -1,0 +1,139 @@
+
+//<!--
+const char webinterface[] PROGMEM = R"rawliteral(
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TRANCE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>TRANCE</h1>
+    <small>Revision 1</small>
+  </div>
+  <div class='content'>
+    
+    <h1>Status</h1>
+
+    <fieldset>
+      <p>WIFI: %WIFISTATUS%</p>
+      <p>Ascn: to do</p>
+      <p>MQTT: to do</p>
+    </fieldset>
+
+    <h1>Settings</h1>
+
+    <fieldset>
+      <legend>Wifi</legend>
+      <form>
+        <label for="ssid">SSID:</label>
+        <input type="text" id="ssid" name="ssid" value="%ssid%"><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="%password%"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Network</legend>
+      <form>
+        <input type="radio" id="dhcp" name="ip_type" value="dhcp" %dhcp%>
+        <label for="dhcp">DHCP</label><br>
+        <input type="radio" id="fixed" name="ip_type" value="fixed" %fixed%>
+        <label for="fixed">Fixed IP</label><br>
+        <label for="ip">IP:</label>
+        <input type="text" id="ip" name="ip" value="%ip%"><br>
+        <label for="gateway">Gateway:</label>
+        <input type="text" id="gateway" name="gateway" value="%gateway%"><br>
+        <label for="subnet">Subnet Mask:</label>
+        <input type="text" id="subnet" name="subnet" value="%subnet%"><br>
+        <label for="hostname">Hostname:</label>
+        <input type="text" id="hostname" name="hostname" value="%hostname%"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Connectivity</legend>
+      <form>
+        <input type="checkbox" id="ascn" name="connections" value="ascn" checked>
+        <label for="ascn">Ascn / E31.1</label><br>
+        <input type="checkbox" id="artnet" name="connections" value="artnet">
+        <label for="artnet">Artnet</label><br>
+        <input type="checkbox" id="mqtt" name="connections" value="mqtt">
+        <label for="mqtt">Mqtt</label><br>
+        <input type="submit" value="Submit">
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Ascn / E31.1</legend>
+      <form>
+        <label for="universe">Universe:</label>
+        <input type="number" id="universe" name="universe" value="19"><br>
+      </form>
+    </fieldset>
+
+  </div>
+</body>
+
+<style>
+
+  body {
+    margin: 0px;
+  }
+
+  .navbar {
+    padding: 23px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+  }
+
+  .content, fieldset, h1 {
+    margin: 20px;
+  }
+
+  .navbar h1 {
+    margin: 0px;
+  }
+
+  * {
+    font-family: Arial;
+  }
+
+  input[type=text], input[type=password], input[type=number], input[type=submit], input[type=reset], select {
+      width: 100%;
+      padding: 12px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+
+  input {
+    margin: 8px 0;
+  }
+
+  @media screen and (min-width: 800px) {
+    .content {
+      margin-left: 12rem;
+      margin-right: 12rem;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .content {
+      margin-left: 30rem;
+      margin-right: 30rem;
+    }
+  }
+
+
+  </style>
+
+</html>
+<!--
+)rawliteral";
+//-->

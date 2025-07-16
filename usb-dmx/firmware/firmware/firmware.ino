@@ -42,6 +42,9 @@ Preferences preferences;
 static DNSServer dnsServer;
 static AsyncWebServer server(80);
 
+// Custom Webinterface
+#include "webinterface.html"
+
 // Device initialisation
 void setup() {
 
@@ -65,7 +68,50 @@ void onRequest(AsyncWebServerRequest *request){
 }
 
 void on_config(AsyncWebServerRequest *request){
-  request->send(200, "text/plain", "Hello World!");
+  request->send(200, "text/html", webinterface, processor);
+}
+
+// Replaces placeholder with button section in your web page
+String processor(const String& var){
+
+  // Loading Network Preferences
+  preferences.begin("network", true);
+  bool dhcp = preferences.getBool("dhcp", true);
+  String ip = preferences.getString("ip", "192.168.1.10");
+  String gateway = preferences.getString("gateway", "192.168.1.1");
+  String subnet = preferences.getString("subnet", "255.255.0.0");
+  String hostname = preferences.getString("hostname", "trance");
+  preferences.end();
+
+  // Loading wifi preferences
+  preferences.begin("wifi", true);
+  String ssid = preferences.getString("ssid", "t"); 
+  String password = preferences.getString("password", "t");
+  preferences.end();
+
+  DEBUG_PRINTLN("TEMPLATE PROCESSOR: got var " + var);
+  if(var == "WIFISTATUS"){
+    String buttons = "Wifi Status is: " + WiFi.status();
+    return buttons;
+  }
+
+  if(var == "ssid") return ssid;
+  if(var == "password") return password;
+
+  if(var == "dhcp") {
+    if(dhcp) return "checked";
+    if(!dhcp) return "";
+  }
+  if(var == "fixed") {
+    if(!dhcp) return "checked";
+    if(dhcp) return "";
+  } 
+  if(var == "ip") return ip;
+  if(var == "gateway") return gateway;
+  if(var == "subnet") return subnet;
+  if(var == "hostname") return hostname;
+ 
+  return String();
 }
 
 // Load Network Preferences, start_wifi has to be run to apply these Preferences
