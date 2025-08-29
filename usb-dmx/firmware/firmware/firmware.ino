@@ -4,7 +4,7 @@ Firmware for the Trance hardware.
 
 Prequisites:
 Boards: esp32 v3.2.1
-Librarys: ESPAsyncWebServer v3.7.10, AsyncTCP v3.4.5, Preferences v2.1.0, ESPAsyncE1.31 v1.0.3
+Librarys: ESPAsyncWebServer v3.7.10, AsyncTCP v3.4.5, Preferences v2.1.0, ESPAsyncE1.31 v1.0.3, FastLED v3.10.2
 
 Upload Settings:
 Board: ESP32-S3-USB-OTG
@@ -16,8 +16,8 @@ Author: Samuel Hafen
 */
 
 
-// Comment or uncomment this line to enable/disable debugging
-//#define DEBUG
+// Comment or uncomment this line to enable/disable debugging§
+#define DEBUG
 // Create macros for serial debugging
 #ifdef DEBUG
   #define DEBUG_PRINT(x)  Serial.print(x)
@@ -32,16 +32,15 @@ Author: Samuel Hafen
 #define ETHERNET 2
 
 #include <FastLED.h>
+
 // Import Hardware definition
 // Uncomment the hardware you are using
 #include <rgb-c3.h>
+//#include <pixel-c3.h>
 
 // Allows for persisten Preferences storage
 #include <Preferences.h>
 Preferences preferences;
-
-// Library for connecting to Wifi networks
-#include <WiFi.h>
 
 // Resources for Captive Portal and Configuration
 #include <DNSServer.h>
@@ -52,6 +51,10 @@ static AsyncWebServer server(80);
 
 // Custom Webinterface
 #include "webinterface.html"
+
+// Load Modules
+#include <networking.h>
+#include <connections.h>
 
 // Ascn Connectivity
 #include <ESPAsyncE131.h>
@@ -70,14 +73,12 @@ void setup() {
   // Activate serial communication when debugging is enabled
   #ifdef DEBUG
     Serial.begin(115200);
-    while (!Serial) {
-      delay(10); // wait for Serial CDC to open
-    }
+    delay(1000); // wait for Serial CDC to open
   #endif
   DEBUG_PRINTLN("-- Start Debugging --");
 
   load_network_preferences();
-  start_wifi();
+  network_setup();
 
   server.on("/", HTTP_GET, on_config);
   server.onNotFound(onRequest);
@@ -85,7 +86,7 @@ void setup() {
 
   analogWrite(2, 10);
 
-  start_ascn();
+  connection_setup();
 
 }
 
@@ -210,74 +211,10 @@ void load_network_preferences() {
   } 
 }
 
-void start_ascn() {
-    // Choose one to begin listening for E1.31 data
-    //if (e131.begin(E131_UNICAST))                               // Listen via Unicast
-    if (e131.begin(E131_MULTICAST, UNIVERSE, UNIVERSE_COUNT))   // Listen via Multicast
-        DEBUG_PRINTLN(F("Listening for data..."));
-    else 
-        DEBUG_PRINTLN(F("*** e131.begin failed ***"));
-}
-
-void handle_ascn() {
-  if (!e131.isEmpty()) {
-    e131_packet_t packet;
-    e131.pull(&packet);     // Pull packet from ring buffer
-
-    int values[INTERFACE_CHANNELS];
-    for (int i = 0; i < INTERFACE_CHANNELS; i++) {
-      values[i] = packet.property_values[ADDRESS + i];
-    }
-    interface_call(values);
-
-    DEBUG_PRINTLN(packet.property_values[ADDRESS]);
-  }
-}
-
-// Load WiFi Preferences and start 
-void start_wifi() {
-  // Loading wifi preferences
-  preferences.begin("wifi", true);
-  String ssid = preferences.getString("ssid", "t"); 
-  String password = preferences.getString("password", "t");
-  preferences.end();
-
-  // End previous Connection attemps
-  WiFi.disconnect(true);
-
-  // Add Listeners to wifi connection Events
-  WiFi.onEvent(wifi_connected, ARDUINO_EVENT_WIFI_STA_CONNECTED);
-  WiFi.onEvent(wifi_fail, ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
-  WiFi.onEvent(ap_start, ARDUINO_EVENT_WIFI_AP_START);
-  
-  // Start to connect with these Credentials
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid.c_str(), password.c_str());
-}
-
-// Open a AP when wifi connection is interrupted.
-void wifi_fail(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
-  DEBUG_PRINTLN("WIFI: Not able to connect, switching to AP STA mode");
-  WiFi.softAP("trance-config");
-  WiFi.mode(WIFI_AP_STA);
-}
-
-// Close AP when connection is successfull
-void wifi_connected(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
-  DEBUG_PRINTLN("WIFI: Connected to Wifi, siwtching to STA mode");
-  WiFi.mode(WIFI_STA);
-}
-
-void ap_start(WiFiEvent_t wifi_event, WiFiEventInfo_t wifi_info) {
-  DEBUG_PRINTLN("WIFI: Soft AP started, Starting DNS");
-  //DEBUG_PRINTLN("WIFI: Soft AP IP is: %s", WiFi.softAPIP());
-  dnsServer.start(53, "*", WiFi.softAPIP());
-}
-
 void loop() {
-  // Handle DNS requests for the Captive Portal
-  dnsServer.processNextRequest();
-  handle_ascn();
+  network_handle();
+  interface_handle();
+  connection_handle();
 }
 
 // Device Reset
