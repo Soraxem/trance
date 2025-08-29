@@ -1,5 +1,3 @@
-
-
 # Trance
 
 Live Lighting control via the network stack.
@@ -18,14 +16,13 @@ Here is the definition of the minimum viable product for this project in form of
 
 ## LED States
 
-- Red -> System
-- Blue -> Wifi
-  - Pulsing -> AP mode
-  - Blinking -> Disconnected
-  - Static -> Connected
-- Green -> Communication
-  - Blinking -> Stopped
-  - Static -> Connected
+- Network Error - Slow Blink
+
+- WPS - Blinking
+
+- Resetting - Fast Blink until release
+
+- Connection Error - pulse
 
 ## Product Variations
 
