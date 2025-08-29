@@ -1,10 +1,13 @@
 /*
 
-Hardware definition for Trance firmware
+Hardware implementation for Trance firmware
 
 */
 
-#define NETWORK "WIFI"
+#define NETWORK WIFI
+
+#define INFO_LED 8
+#define BUTTON 7
 
 #define INTERFACE_CHANNELS 3
 

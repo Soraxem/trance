@@ -27,6 +27,11 @@ Author: Samuel Hafen
   #define DEBUG_PRINTLN(x)
 #endif
 
+// Define macros for configuration
+#define WIFI 1
+#define ETHERNET 2
+
+#include <FastLED.h>
 // Import Hardware definition
 // Uncomment the hardware you are using
 #include <rgb-c3.h>
