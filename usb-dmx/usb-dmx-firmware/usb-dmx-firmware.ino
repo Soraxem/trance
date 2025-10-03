@@ -1,13 +1,14 @@
 /*
-
-  Boards: esp32 v3.0.4
-  Dependencies: esp_dmx v4.1.0
+  Board: TRANCE USB-DMX rev: 1.1
+  Board Library: esp32 v3.0.4
+  Dependencies: trance v0.0.1, esp_dmx v4.1.0
+  Author: Samuel Hafen
 */
 
 #include <Arduino.h>
 #include <esp_dmx.h>
 
-#include <trance.h>
+#include <Trance.h>
 
 int transmitPin = 4;
 int receivePin = 1;
@@ -21,6 +22,7 @@ uint8_t data[513];
 void callback(uint8_t test[]);
 
 void setup() {
+
   // setup Trance
   delay(2000);
 
@@ -40,7 +42,7 @@ void loop() {
   dmx_write(dmxPort, data, DMX_PACKET_SIZE);
   dmx_send_num(dmxPort, DMX_PACKET_SIZE);
   dmx_wait_sent(dmxPort, DMX_TIMEOUT_TICK);
-  delay(5);  //allow the cpu to switch to other tasks
+  delay(5);
 }
 
 // recieves data from Trance
