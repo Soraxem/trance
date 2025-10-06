@@ -533,6 +533,12 @@
         },
         {
           "group_by": false,
+          "label": "ALIEXPRESS",
+          "name": "ALIEXPRESS",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DESCRIPTION",
           "name": "DESCRIPTION",
           "show": true
@@ -681,7 +687,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Check_prices"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
