@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "USB-DMX")
+		(date "2025-10-06")
 		(rev "1.2")
 		(company "Author: Samuel Hafen")
 	)
@@ -1528,168 +1529,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1814,317 +1653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IP4234CZ6:IP4234CZ6"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "IP4234CZ6"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "IP4234CZ6:IP4234CZ6_SOT-457-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "NXP Semiconductors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "ESD Suppressors / TVS Diodes Single USB 2.0 ESD Protection 6-Pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-457 Nexperia USA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP4234CZ6/NXP+Semiconductors/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "IP4234CZ6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/IP4234CZ6/NXP+Semiconductors/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "IP4234CZ6_0_0"
-				(rectangle
-					(start 0 -6.35)
-					(end 12.7 1.27)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "I/O1A"
-					(at 1.27 0 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left)
-					)
-				)
-				(text "GND"
-					(at 1.27 -2.54 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left)
-					)
-				)
-				(text "I/O2A"
-					(at 1.27 -5.08 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left)
-					)
-				)
-				(text "I/O1B"
-					(at 11.43 0 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify right)
-					)
-				)
-				(text "VB"
-					(at 11.43 -2.54 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify right)
-					)
-				)
-				(text "I/O2B"
-					(at 11.43 -5.08 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify right)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Interface_UART:ST485E"
+		(symbol "Interface_UART:MAX485E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2136,8 +1665,8 @@
 					)
 				)
 			)
-			(property "Value" "ST485E"
-				(at 2.54 13.97 0)
+			(property "Value" "MAX485E"
+				(at 1.905 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2154,7 +1683,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/resource/en/datasheet/st485eb.pdf"
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -2163,7 +1692,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Half duplex RS-485/RS-422, 5 Mbps, ±15kV ESD, 5V supply, 256 bus load, SOIC-8"
+			(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2172,7 +1701,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ST-Microelectronics half-duplex"
+			(property "ki_keywords" "transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2181,7 +1710,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2190,7 +1719,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ST485E_0_1"
+			(symbol "MAX485E_0_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -12.7)
@@ -2357,7 +1886,7 @@
 					)
 				)
 			)
-			(symbol "ST485E_1_1"
+			(symbol "MAX485E_1_1"
 				(circle
 					(center -0.762 2.54)
 					(radius 0.508)
@@ -2805,42 +2334,62 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTS526_SM15_SMTR2_LFS:PTS526_SM15_SMTR2_LFS"
+		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at -2.54 2.54 0)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "PTS526_SM15_SMTR2_LFS"
-				(at -2.54 -2.54 0)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "PTS526_SM15_SMTR2_LFS:PTS526SM15SMTR2LFS"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "usb ethernet video"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2849,173 +2398,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER_NAME" "C & K COMPONENTS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "C&K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PART_NUMBER" "611-PTS526SM15SMTR2L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "HEIGHT" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/pts526-sm15-smtr2-lfs/ck"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "ARROW_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PTS526_SM15_SMTR2_LFS_0_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.27 1.27)
-					)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -3023,70 +2420,10 @@
 					)
 				)
 				(circle
-					(center -2.54 0)
-					(radius 0.127)
+					(center -0.508 2.032)
+					(radius 0.0001)
 					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.905) (xy 1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -3094,10 +2431,239 @@
 					)
 				)
 				(circle
-					(center 2.54 0)
-					(radius 0.127)
+					(center -0.508 -4.572)
+					(radius 0.0001)
 					(stroke
-						(width 0.4064)
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3107,53 +2673,71 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "~"
+					(name "I/O1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "I/O2"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3161,17 +2745,35 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "~"
+					(name "I/O1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4456,12 +4058,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:ADP2108AUJ-3.3"
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4469,27 +4079,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADP2108AUJ-3.3"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf"
-				(at -6.35 -8.89 0)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4497,7 +4097,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3MHz switching bucK regulator, 600mA 3.3V output voltage,"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4506,7 +4106,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage regulator switching buck fixed output analog"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4515,7 +4115,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSOT?23*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4524,10 +4124,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADP2108AUJ-3.3_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4537,29 +4137,11 @@
 					)
 				)
 			)
-			(symbol "ADP2108AUJ-3.3_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4584,6 +4166,24 @@
 							)
 						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "2"
 						(effects
 							(font
@@ -4592,17 +4192,131 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 2.54 180)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "SW"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4610,17 +4324,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -2.54 180)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "FB"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4734,25 +4448,25 @@
 		)
 	)
 	(junction
-		(at 360.68 119.38)
+		(at 354.33 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0147690b-8a20-4241-9b2c-3f8210ae5091")
 	)
 	(junction
-		(at 203.2 69.85)
+		(at 190.5 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c356098-5d0a-482e-ac25-1d70c53faa59")
+		(uuid "0a768037-59f6-48af-a9bd-d47e9eafd25c")
 	)
 	(junction
-		(at 360.68 50.8)
+		(at 354.33 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20ff8b0e-e3d4-4b40-a960-12e3093e0de1")
 	)
 	(junction
-		(at 327.66 50.8)
+		(at 321.31 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ac905b9-532c-44dc-8b9a-f353027b0898")
@@ -4776,16 +4490,10 @@
 		(uuid "469eaaaa-2fa9-4f1b-a9d0-c181d96f097d")
 	)
 	(junction
-		(at 290.83 60.96)
+		(at 284.48 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fd3541a-fa8c-4bb2-b93e-933a316d3a5a")
-	)
-	(junction
-		(at 135.89 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "598532a1-e9a2-4e23-ba3d-b73abb14d16a")
 	)
 	(junction
 		(at 77.47 71.12)
@@ -4794,16 +4502,10 @@
 		(uuid "5e60b063-4f68-4c31-8660-8fc3cde24b16")
 	)
 	(junction
-		(at 210.82 69.85)
+		(at 209.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a2e8be5-a7b1-4521-afa0-f556bffddf48")
-	)
-	(junction
-		(at 248.92 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "882276b5-5e27-4374-98d0-108223505825")
+		(uuid "5ef01123-8465-43f2-8229-01143813307b")
 	)
 	(junction
 		(at 209.55 173.99)
@@ -4830,7 +4532,13 @@
 		(uuid "b10025df-f53e-4195-acb3-2734e6de7457")
 	)
 	(junction
-		(at 327.66 119.38)
+		(at 107.95 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba869a35-a800-46c3-9a7c-4f467adbe7ca")
+	)
+	(junction
+		(at 321.31 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bad2dc87-1065-45f4-afb3-94d9b4f75279")
@@ -4848,26 +4556,16 @@
 		(uuid "d9e36951-9904-42e2-a041-ebfe88ada692")
 	)
 	(junction
-		(at 241.3 69.85)
+		(at 227.33 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb372988-bd14-4329-807f-f55d3108b849")
+		(uuid "fc5d9ae2-268b-43c1-90e3-072e0be164d7")
 	)
 	(junction
 		(at 80.01 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd25c552-dc6f-4076-9de1-7907cc1ae3a5")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 135.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058a16fe-eaab-4f66-864c-7df6ea9062b9")
 	)
 	(wire
 		(pts
@@ -4881,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 95.25 78.74)
+			(xy 90.17 71.12) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4911,6 +4609,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e1bcaa-e06a-4098-b5ae-6f17551fa380")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 120.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c93292a-921a-46f9-8385-fc13e415f25a")
+	)
+	(wire
+		(pts
 			(xy 80.01 78.74) (xy 69.85 78.74)
 		)
 		(stroke
@@ -4921,23 +4639,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 71.12) (xy 312.42 71.12)
+			(xy 302.26 68.58) (xy 306.07 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1127602a-4e8b-43d3-b397-1a6f94aa131c")
-	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c21dbc-1fc0-427d-917a-41bbf4eb1b2b")
 	)
 	(wire
 		(pts
@@ -4951,47 +4659,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 69.85) (xy 259.08 69.85)
+			(xy 80.01 76.2) (xy 102.87 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13716863-f835-465d-a580-fa1ebfdb8617")
+		(uuid "140f5774-82cc-4317-ad47-16608672d9a7")
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 115.57 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a3bb3f-d1ce-4478-af90-bd8987910add")
-	)
-	(wire
-		(pts
-			(xy 248.92 81.28) (xy 248.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8f043f-834b-4322-b057-900b95a9dd45")
-	)
-	(wire
-		(pts
-			(xy 135.89 66.04) (xy 144.78 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cdd76f3-29b8-4b71-bb71-50b727a1c4cd")
-	)
-	(wire
-		(pts
-			(xy 290.83 50.8) (xy 290.83 52.07)
+			(xy 284.48 48.26) (xy 284.48 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5031,13 +4709,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 210.82 72.39)
+			(xy 107.95 83.82) (xy 107.95 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "244cf0a2-d374-4131-bbdf-11e6faa90e78")
+		(uuid "267c17c2-9135-4c5a-a22c-f97af8f9b53c")
 	)
 	(wire
 		(pts
@@ -5051,27 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 69.85) (xy 241.3 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c9377c8-e164-451b-8821-11d44a555056")
-	)
-	(wire
-		(pts
-			(xy 80.01 73.66) (xy 115.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e323c00-3015-4ed8-8ee4-5f4ea0b49f57")
-	)
-	(wire
-		(pts
-			(xy 360.68 119.38) (xy 327.66 119.38)
+			(xy 354.33 116.84) (xy 321.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5091,23 +4749,13 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 119.38) (xy 360.68 119.38)
+			(xy 368.3 116.84) (xy 354.33 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "341ec3a3-f184-4955-9d8a-819c2dc3a6c3")
-	)
-	(wire
-		(pts
-			(xy 220.98 80.01) (xy 220.98 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3603b4bf-efa6-4567-a9e4-29bab9f92fd3")
 	)
 	(wire
 		(pts
@@ -5121,13 +4769,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 210.82 72.39)
+			(xy 107.95 58.42) (xy 107.95 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a61a23b-167a-4304-af6a-cbcf1ad4947e")
+		(uuid "38a9de33-0b38-4718-a803-d6ba0219db9e")
 	)
 	(wire
 		(pts
@@ -5151,16 +4799,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 213.36 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a19202-3306-4650-9d71-908af8afb832")
-	)
-	(wire
-		(pts
 			(xy 99.06 67.31) (xy 99.06 63.5)
 		)
 		(stroke
@@ -5171,13 +4809,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 76.2) (xy 107.95 76.2)
+			(xy 190.5 71.12) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48ec3d69-9696-45d0-a947-bbf604d8f619")
+		(uuid "49e2f8f3-b0e6-444e-a0ce-7163cf4329bc")
 	)
 	(wire
 		(pts
@@ -5191,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 87.63) (xy 374.65 119.38)
+			(xy 368.3 85.09) (xy 368.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5201,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 87.63) (xy 360.68 119.38)
+			(xy 354.33 85.09) (xy 354.33 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5251,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 71.12) (xy 346.71 71.12)
+			(xy 336.55 68.58) (xy 340.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5261,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 119.38) (xy 327.66 121.92)
+			(xy 321.31 116.84) (xy 321.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5271,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 50.8) (xy 327.66 55.88)
+			(xy 321.31 48.26) (xy 321.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5301,7 +4939,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 60.96) (xy 290.83 59.69)
+			(xy 284.48 58.42) (xy 284.48 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 80.01) (xy 374.65 50.8)
+			(xy 368.3 77.47) (xy 368.3 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 78.74) (xy 115.57 78.74)
+			(xy 90.17 78.74) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 60.96) (xy 290.83 60.96)
+			(xy 306.07 58.42) (xy 284.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5351,13 +4989,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 107.95 101.6)
+			(xy 209.55 76.2) (xy 209.55 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c71cc7a-2aed-4940-a1d3-44c4211c2bc3")
+		(uuid "77c56d5c-8c5e-4b4d-aae2-2bca9eafb000")
 	)
 	(wire
 		(pts
@@ -5381,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 60.96) (xy 290.83 63.5)
+			(xy 284.48 58.42) (xy 284.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5421,33 +5059,33 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 210.82 69.85)
+			(xy 209.55 66.04) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a6ce3eb-c583-4954-8b51-8162f4929f29")
+		(uuid "8b4ad10e-40e0-4730-a5f0-9870a27872b8")
 	)
 	(wire
 		(pts
-			(xy 133.35 78.74) (xy 144.78 78.74)
+			(xy 113.03 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cdcbcd5-a324-4ce6-8bea-991cd6af5653")
+		(uuid "8de85514-c813-4f19-868b-32a7ba1bb390")
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 203.2 69.85)
+			(xy 227.33 76.2) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fbcc057-bdf6-40ed-a40f-21061c2564f6")
+		(uuid "9185a6c4-b5f6-470c-8ab8-d110a3d6f8a7")
 	)
 	(wire
 		(pts
@@ -5458,16 +5096,6 @@
 			(type default)
 		)
 		(uuid "945dfd5c-3d69-4477-b767-e99a993fe5e5")
-	)
-	(wire
-		(pts
-			(xy 241.3 69.85) (xy 248.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951e456a-2966-48a9-9474-3368f5ca7b92")
 	)
 	(wire
 		(pts
@@ -5511,13 +5139,23 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 80.01) (xy 360.68 50.8)
+			(xy 354.33 77.47) (xy 354.33 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d51e92b-25bc-4636-a846-05f89f07f26f")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0e9ccc-4418-4b8b-9643-2794541d9084")
 	)
 	(wire
 		(pts
@@ -5541,17 +5179,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 203.2 87.63)
+			(xy 113.03 78.74) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8084fe1-1cdc-4e5e-98a6-bb945e2dd24f")
+		(uuid "a681ac58-b38f-411d-be7f-221daf1b7fcf")
 	)
 	(wire
 		(pts
-			(xy 308.61 68.58) (xy 312.42 68.58)
+			(xy 177.8 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac76b68c-6841-4799-bfa4-16aa52be5f40")
+	)
+	(wire
+		(pts
+			(xy 302.26 66.04) (xy 306.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5561,23 +5209,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 104.14) (xy 312.42 104.14)
+			(xy 302.26 101.6) (xy 306.07 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af214076-6246-4a4d-9a58-3cd0794e3857")
-	)
-	(wire
-		(pts
-			(xy 135.89 66.04) (xy 115.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b147c3ac-7c07-4b5f-894d-e0a7f399567c")
 	)
 	(wire
 		(pts
@@ -5591,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 66.04) (xy 312.42 66.04)
+			(xy 302.26 63.5) (xy 306.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5611,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 68.58) (xy 346.71 68.58)
+			(xy 336.55 66.04) (xy 340.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5621,17 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 74.93) (xy 241.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b588d302-c41e-4d21-b37a-227daeb914bc")
-	)
-	(wire
-		(pts
-			(xy 327.66 116.84) (xy 327.66 119.38)
+			(xy 321.31 114.3) (xy 321.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5661,7 +5289,27 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 50.8) (xy 360.68 50.8)
+			(xy 190.5 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdeba49-16df-411c-9b52-d032af6a634b")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc74564-2033-4dc2-ace1-e5cc8a53faff")
+	)
+	(wire
+		(pts
+			(xy 368.3 48.26) (xy 354.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5681,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 71.12) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb034e5-b374-436b-ab6b-fecc6f87d3f4")
+	)
+	(wire
+		(pts
 			(xy 245.11 198.12) (xy 245.11 212.09)
 		)
 		(stroke
@@ -5688,16 +5346,6 @@
 			(type default)
 		)
 		(uuid "bff30ddc-6337-4e93-8674-a40765f5a083")
-	)
-	(wire
-		(pts
-			(xy 228.6 69.85) (xy 231.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f72e00-ee50-4781-b1f6-d822fdc92277")
 	)
 	(wire
 		(pts
@@ -5721,16 +5369,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 80.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8003960-53c5-46e8-a2f6-9c54aa14695a")
-	)
-	(wire
-		(pts
 			(xy 99.06 63.5) (xy 90.17 63.5)
 		)
 		(stroke
@@ -5751,16 +5389,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 69.85) (xy 241.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca317440-e0f1-4723-adb7-8a472aacfce3")
-	)
-	(wire
-		(pts
 			(xy 175.26 200.66) (xy 175.26 203.2)
 		)
 		(stroke
@@ -5768,16 +5396,6 @@
 			(type default)
 		)
 		(uuid "cb891186-9fcd-4337-aa4d-765aac9e3f4e")
-	)
-	(wire
-		(pts
-			(xy 203.2 69.85) (xy 203.2 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc60bad-4f11-49de-93ab-b2ec895e7022")
 	)
 	(wire
 		(pts
@@ -5791,17 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 144.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0727134-ebba-46f2-aa46-8dffd2ad8f9b")
-	)
-	(wire
-		(pts
-			(xy 308.61 76.2) (xy 312.42 76.2)
+			(xy 302.26 73.66) (xy 306.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5811,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 101.6) (xy 312.42 101.6)
+			(xy 302.26 99.06) (xy 306.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5821,7 +5429,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 119.38) (xy 327.66 119.38)
+			(xy 284.48 116.84) (xy 321.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5841,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 73.66) (xy 312.42 73.66)
+			(xy 302.26 71.12) (xy 306.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5851,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 50.8) (xy 327.66 50.8)
+			(xy 284.48 48.26) (xy 321.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +5489,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 45.72) (xy 327.66 50.8)
+			(xy 321.31 43.18) (xy 321.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5921,7 +5529,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 95.25 71.12)
+			(xy 227.33 58.42) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53c6989-1c5b-452e-95d9-1ce946a24d66")
+	)
+	(wire
+		(pts
+			(xy 77.47 71.12) (xy 90.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5938,16 +5556,6 @@
 			(type default)
 		)
 		(uuid "e80863fd-82f6-452c-953a-bb80c5c831c6")
-	)
-	(wire
-		(pts
-			(xy 248.92 69.85) (xy 248.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80b87db-c045-467a-9153-f850419f85d9")
 	)
 	(wire
 		(pts
@@ -5971,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 71.12) (xy 290.83 119.38)
+			(xy 284.48 68.58) (xy 284.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5981,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 50.8) (xy 327.66 50.8)
+			(xy 354.33 48.26) (xy 321.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6031,7 +5639,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 69.85 58.42)
+			(xy 227.33 58.42) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa841747-2204-4e87-83c0-5d255694c5a7")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 107.95 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +5659,7 @@
 	)
 	(global_label "VCC_5V"
 		(shape input)
-		(at 198.12 69.85 180)
+		(at 177.8 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6049,9 +5667,9 @@
 			)
 			(justify right)
 		)
-		(uuid "002f5a1f-17f9-4a20-94b6-117d91f3a2dc")
+		(uuid "179be4b9-c569-4b1e-ac85-6d5749d36f9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2405 69.85 0)
+			(at 167.9205 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +5703,7 @@
 	)
 	(global_label "4"
 		(shape output)
-		(at 308.61 76.2 180)
+		(at 302.26 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6095,7 +5713,7 @@
 		)
 		(uuid "206f7cf5-a3f6-4c0a-b80c-2bb04e8066be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.4153 76.2 0)
+			(at 298.0653 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +5725,7 @@
 	)
 	(global_label "VCC_5V"
 		(shape output)
-		(at 144.78 66.04 0)
+		(at 120.65 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6117,7 +5735,7 @@
 		)
 		(uuid "20ff0fe3-7a70-4f34-8423-e73df030137a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6595 66.04 0)
+			(at 130.5295 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +5835,7 @@
 	)
 	(global_label "2"
 		(shape output)
-		(at 308.61 71.12 180)
+		(at 302.26 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6227,7 +5845,7 @@
 		)
 		(uuid "4f92c762-0ec3-4e70-bc83-57a85f6f9e53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.4153 71.12 0)
+			(at 298.0653 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +5879,7 @@
 	)
 	(global_label "14"
 		(shape output)
-		(at 308.61 101.6 180)
+		(at 302.26 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6271,7 +5889,7 @@
 		)
 		(uuid "5dd4bb66-f9b9-4bad-9a0c-ffe32eb79200")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.2058 101.6 0)
+			(at 296.8558 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +5901,7 @@
 	)
 	(global_label "0"
 		(shape input)
-		(at 308.61 66.04 180)
+		(at 302.26 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6293,7 +5911,7 @@
 		)
 		(uuid "6cf2be02-4237-43ab-886f-a4d7181e0adf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.4153 66.04 0)
+			(at 298.0653 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +5923,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 144.78 78.74 0)
+		(at 120.65 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6315,7 +5933,7 @@
 		)
 		(uuid "708b46d6-26db-4a6f-9efa-b745872b4d8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.7189 78.74 0)
+			(at 127.5889 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,6 +5956,28 @@
 		(uuid "767ef249-d17f-4865-b20f-30c0c92d8206")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 235.6598 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3.3V"
+		(shape output)
+		(at 238.76 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "781d7f59-c6f9-4372-9b47-9e40c682b3b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.4538 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6033,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 346.71 71.12 0)
+		(at 340.36 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6403,7 +6043,7 @@
 		)
 		(uuid "80c40132-99b6-45cc-93d0-8398fcea32f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.6489 71.12 0)
+			(at 347.2989 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6099,7 @@
 	)
 	(global_label "15"
 		(shape output)
-		(at 308.61 104.14 180)
+		(at 302.26 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6469,7 +6109,7 @@
 		)
 		(uuid "a1c1b25b-1741-4066-9992-328f4e41b137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.2058 104.14 0)
+			(at 296.8558 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6165,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 144.78 73.66 0)
+		(at 120.65 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6535,7 +6175,7 @@
 		)
 		(uuid "bbf4929f-2d33-43fe-993a-2a16d394f293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.7189 73.66 0)
+			(at 127.5889 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6209,7 @@
 	)
 	(global_label "VCC_3.3V"
 		(shape input)
-		(at 327.66 45.72 90)
+		(at 321.31 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6579,7 +6219,7 @@
 		)
 		(uuid "d1452906-5dba-44ac-bac0-97558e1b6bf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 34.0262 90)
+			(at 321.31 31.4862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6231,7 @@
 	)
 	(global_label "1"
 		(shape input)
-		(at 308.61 68.58 180)
+		(at 302.26 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6601,7 +6241,7 @@
 		)
 		(uuid "d4d5e76b-86b6-46f8-8abc-165f0119bcb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.4153 68.58 0)
+			(at 298.0653 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,31 +6251,9 @@
 			)
 		)
 	)
-	(global_label "VCC_3.3V"
-		(shape output)
-		(at 259.08 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb8449d4-f0f7-48c6-b608-71011215f3d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.7738 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3"
 		(shape output)
-		(at 308.61 73.66 180)
+		(at 302.26 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6645,7 +6263,7 @@
 		)
 		(uuid "ff4d7537-3e22-44a3-b492-f362f36299ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.4153 73.66 0)
+			(at 298.0653 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +6275,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 346.71 68.58 0)
+		(at 340.36 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6667,7 +6285,7 @@
 		)
 		(uuid "ffbaf22a-a111-4441-bf1a-642fbcf659ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.6489 68.58 0)
+			(at 347.2989 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,8 +6296,231 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_UART:MAX485E")
+		(at 209.55 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0311e985-524d-4c83-9adf-279de9042ea2")
+		(property "Reference" "U5"
+			(at 211.6933 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX485E"
+			(at 211.6933 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
+			(at 209.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+			(at 209.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005009488857574.html"
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 209.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94251cef-de24-4b01-88f8-32d982958629")
+		)
+		(pin "1"
+			(uuid "6c6b041f-c536-4714-b809-52413f3f6bd3")
+		)
+		(pin "7"
+			(uuid "313f5072-a09f-4f21-8863-0c09d0e76e7a")
+		)
+		(pin "3"
+			(uuid "379582f8-8ad0-4c0a-963f-a1289b9b63d2")
+		)
+		(pin "4"
+			(uuid "51c993e3-b4f1-4e5d-8aa4-366f747e31c3")
+		)
+		(pin "8"
+			(uuid "e2ed5ea1-4ca8-4fa6-9592-0bac40138698")
+		)
+		(pin "5"
+			(uuid "899c71ec-7213-4897-9a24-e5737a3140eb")
+		)
+		(pin "6"
+			(uuid "859a2a62-9e95-4bb8-b4ad-e5287b9651f6")
+		)
+		(instances
+			(project ""
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 290.83 55.88 0)
+		(at 284.48 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6688,7 +6529,7 @@
 		(fields_autoplaced yes)
 		(uuid "086a17c4-ff25-42be-be41-4ea4c538505e")
 		(property "Reference" "R3"
-			(at 293.37 54.6099 0)
+			(at 287.02 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6538,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 293.37 57.1499 0)
+			(at 287.02 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 289.052 55.88 90)
+			(at 282.702 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 55.88 0)
+			(at 284.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6565,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 290.83 55.88 0)
+			(at 284.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6574,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 290.83 55.88 0)
+			(at 284.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6583,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 290.83 55.88 0)
+			(at 284.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6591,133 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005002384017954.html"
-			(at 290.83 55.88 0)
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 284.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,110 +6735,6 @@
 			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_UART:ST485E")
-		(at 209.55 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0abe2d08-34de-489a-880a-49a48a835c32")
-		(property "Reference" "U4"
-			(at 211.6933 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ST485E"
-			(at 211.6933 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 209.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/resource/en/datasheet/st485eb.pdf"
-			(at 209.55 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Half duplex RS-485/RS-422, 5 Mbps, ±15kV ESD, 5V supply, 256 bus load, SOIC-8"
-			(at 209.55 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 209.55 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "511-ST485EBDR"
-			(at 209.55 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "4265619b-a4e9-4596-af21-905fdfa8efbf")
-		)
-		(pin "8"
-			(uuid "64659768-99ba-4ab0-8ad7-21cc55324069")
-		)
-		(pin "4"
-			(uuid "67ccee4e-ce0a-4aa9-963f-c3cef35247c9")
-		)
-		(pin "3"
-			(uuid "c97fffae-4af1-4fce-b008-f7378ab2aa43")
-		)
-		(pin "5"
-			(uuid "3aad7774-ced7-4115-9fd6-c0b44489f0d6")
-		)
-		(pin "6"
-			(uuid "bbbc764e-5679-4074-ad00-a5d91003683c")
-		)
-		(pin "2"
-			(uuid "bea9faad-69c6-43a0-904f-a52c46a40186")
-		)
-		(pin "1"
-			(uuid "15e5bd6a-9ae3-43c6-a49b-5f183a805767")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6924,6 +6787,132 @@
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 354.33 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 354.33 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,6 +6994,132 @@
 				)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 354.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6edd50e0-3b10-45f2-bd10-34338810fd8e")
 		)
@@ -7012,184 +7127,6 @@
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IP4234CZ6:IP4234CZ6")
-		(at 118.11 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1512dd20-3fa1-4f34-9ce1-f49f8b2556d4")
-		(property "Reference" "U1"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IP4234CZ6"
-			(at 124.46 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:IP4234CZ6_SOT-457-6"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "NXP Semiconductors"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ESD Suppressors / TVS Diodes Single USB 2.0 ESD Protection 6-Pin"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-457 Nexperia USA"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP4234CZ6/NXP+Semiconductors/view-part/?ref=snap"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "IP4234CZ6"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/IP4234CZ6/NXP+Semiconductors/view-part/?ref=eda"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "771-IP4234CZ6"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10c33bfb-0f4e-418d-a956-d8348d68c276")
-		)
-		(pin "6"
-			(uuid "b02377ad-005f-4fbf-b9e3-0e6127fdfd2c")
-		)
-		(pin "5"
-			(uuid "eb045a64-7d85-4136-b754-675ece03d76d")
-		)
-		(pin "4"
-			(uuid "4c722736-1bba-4fd4-9d68-29f5ac31a9f1")
-		)
-		(pin "1"
-			(uuid "ff70fc53-2361-4770-a658-1ee7322e0168")
-		)
-		(pin "3"
-			(uuid "a87cbbe4-4ff1-402d-a7d7-4ebe83da8a80")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7274,6 +7211,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 82.55 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2564013-8c8b-4465-8b45-1df8133872c6")
 		)
@@ -7284,72 +7347,6 @@
 			(project "eurolite-led-7c-7"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "196f0718-0b5a-47ce-b16f-6790d2bdb997")
-		(property "Reference" "#PWR04"
-			(at 220.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c131c0b9-c215-4da1-9e37-74634a05a517")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7417,6 +7414,132 @@
 				)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 354.33 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a8df765-a619-46e1-86f1-914e2f6f3b53")
 		)
@@ -7430,17 +7553,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 248.92 87.63 0)
+		(lib_id "Device:C")
+		(at 227.33 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24542eba-64e2-4681-b42d-834846a9dc27")
-		(property "Reference" "#PWR05"
-			(at 248.92 93.98 0)
+		(uuid "34434254-a7fb-45a0-9389-30aba5d7b865")
+		(property "Reference" "C1"
+			(at 231.14 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 231.14 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.2952 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,16 +7589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 248.92 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 87.63 0)
+		(property "Datasheet" "~"
+			(at 227.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,8 +7598,9 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 248.92 87.63 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 67.31 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,8 +7608,151 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 87.63 0)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006142309480.html"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 227.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,12 +7761,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c305b0d2-de5f-4bb6-9bc0-5f37c0eb071b")
+			(uuid "75b30f44-492b-4e24-9ebd-4e9371bee979")
+		)
+		(pin "2"
+			(uuid "b7287e2c-cae8-42cd-bd9f-607055d44068")
 		)
 		(instances
-			(project "devboard"
+			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "#PWR05")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7563,7 +7843,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 290.83 67.31 0)
+		(at 284.48 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7572,7 +7852,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c92b240-046d-477c-82b7-06038c11b539")
 		(property "Reference" "C3"
-			(at 294.64 66.0399 0)
+			(at 288.29 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7861,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 294.64 68.5799 0)
+			(at 288.29 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7870,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 291.7952 71.12 0)
+			(at 285.4452 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 67.31 0)
+			(at 284.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7888,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 290.83 67.31 0)
+			(at 284.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7897,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 290.83 67.31 0)
+			(at 284.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7906,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 290.83 67.31 0)
+			(at 284.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7914,133 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005003512666695.html"
-			(at 290.83 67.31 0)
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 284.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 284.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,93 +8064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 234.95 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f09e554-6c9e-4130-bfe6-80992af41a48")
-		(property "Reference" "L1"
-			(at 234.95 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
-			(at 234.95 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "81-LQM21PN1R0MC0D"
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5a79b37d-518d-4513-b0ab-37d82c4c280b")
-		)
-		(pin "1"
-			(uuid "ba16363a-f781-44d9-9293-bace05a526fa")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:ESP32-S3-MINI-1U")
-		(at 327.66 86.36 0)
+		(at 321.31 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7753,7 +8074,7 @@
 		(fields_autoplaced yes)
 		(uuid "543c15af-b08e-4fb5-8485-8c13a82c8348")
 		(property "Reference" "U3"
-			(at 329.8033 53.34 0)
+			(at 323.4533 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +8083,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-MINI-1U"
-			(at 329.8033 55.88 0)
+			(at 323.4533 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +8092,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S2-MINI-1U"
-			(at 344.17 115.57 0)
+			(at 337.82 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +8101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
-			(at 327.66 45.72 0)
+			(at 321.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +8110,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, external antenna"
-			(at 327.66 43.18 0)
+			(at 321.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +8119,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 327.66 86.36 0)
+			(at 321.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +8128,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 327.66 86.36 0)
+			(at 321.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +8136,133 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005005230617287.html"
-			(at 327.66 86.36 0)
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 321.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 321.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,256 +8541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTS526_SM15_SMTR2_LFS:PTS526_SM15_SMTR2_LFS")
-		(at 110.49 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65465532-5459-4fed-a6d4-fc59c8fd4f1f")
-		(property "Reference" "SW1"
-			(at 110.49 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS526_SM15_SMTR2_LFS"
-			(at 110.49 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RST"
-			(at 110.49 196.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_NAME" "C & K COMPONENTS"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "C&K"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=eda"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.5mm"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PTS526 SM15 SMTR2 LFS"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTS526%20SM15%20SMTR2%20LFS/C%2526K/view-part/?ref=snap"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE-STOCK" "https://www.arrow.com/en/products/pts526-sm15-smtr2-lfs/ck"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "PTS526 SM15 SMTR2 LFS"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006151795450.html"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc8df345-0f1f-447d-82ca-61d8c3a9defc")
-		)
-		(pin "1"
-			(uuid "e9f6f73b-f4ce-49a0-9348-40bcca771721")
-		)
-		(pin "4"
-			(uuid "1da7be61-8806-4092-aa14-8f77c62d13ee")
-		)
-		(pin "3"
-			(uuid "e954f081-6040-4f16-91db-8c5070a1e041")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 54.61 73.66 0)
 		(unit 1)
@@ -8415,6 +8612,132 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005008805157100.html"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -8564,6 +8887,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5e7234d-6d1f-4d39-88cb-9f59803ad649")
 		)
@@ -8574,101 +9023,6 @@
 			(project "eurolite-led-7c-7"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:ADP2108AUJ-3.3")
-		(at 220.98 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c5687e3-ac21-4a7f-94a0-0048300c2eec")
-		(property "Reference" "U2"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADP2108AUJ-3.3"
-			(at 220.98 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 222.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf"
-			(at 214.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3MHz switching bucK regulator, 600mA 3.3V output voltage,"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "584-ADP2108AUJZ3.3R7"
-			(at 220.98 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a3c5d8a-42cb-423a-9604-a2d0a6453d0b")
-		)
-		(pin "4"
-			(uuid "de824436-03f5-4987-8b36-bba78ccec4df")
-		)
-		(pin "5"
-			(uuid "e0673e49-9efe-4cf4-b691-2d1f43b12ed8")
-		)
-		(pin "2"
-			(uuid "d8a1bfdb-8ccd-4c01-ab43-75c92b52f253")
-		)
-		(pin "3"
-			(uuid "a0bca213-f63b-483e-98db-d5d73e32c3a0")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8754,6 +9108,132 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/33015141472.html"
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 60.96 194.31 0)
 			(effects
 				(font
@@ -8862,6 +9342,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cee3a2bc-aaf8-49ac-9d97-badddeb53fe7")
 		)
@@ -8958,6 +9564,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca9c394c-928f-4541-8f65-aacc21d652ca")
 		)
@@ -8968,102 +9700,6 @@
 			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 248.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92d37ca1-a426-43cc-b2bd-3229a07799b6")
-		(property "Reference" "C2"
-			(at 252.73 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 252.73 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 249.8852 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006142309480.html"
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "367d0066-1848-44b4-90b7-02450cf59c30")
-		)
-		(pin "1"
-			(uuid "40e7b067-1f16-49f5-9491-58ba66595e60")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9139,6 +9775,132 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/4000649452665.html"
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 284.48 189.23 0)
 			(effects
 				(font
@@ -9239,7 +10001,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 121.92 0)
+		(at 321.31 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9248,7 +10010,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3ce4d6b-303c-4b2b-870d-96097dc2986c")
 		(property "Reference" "#PWR07"
-			(at 327.66 128.27 0)
+			(at 321.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +10019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 127 0)
+			(at 321.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +10027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 121.92 0)
+			(at 321.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +10036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 121.92 0)
+			(at 321.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +10045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 327.66 121.92 0)
+			(at 321.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,6 +10060,226 @@
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 107.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9efd8bf-ca2d-487e-a015-5a6af422d723")
+		(property "Reference" "U4"
+			(at 109.6011 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 109.6011 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 109.22 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005009374494151.html"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "63b2e003-1c9f-4079-908f-420e5a283962")
+		)
+		(pin "3"
+			(uuid "451180a6-49ae-4c17-8648-fd8e3c4fdd72")
+		)
+		(pin "5"
+			(uuid "af7d199d-16f4-4272-985b-53712877d464")
+		)
+		(pin "1"
+			(uuid "6a990631-8434-4382-89db-0ace85150307")
+		)
+		(pin "2"
+			(uuid "ee03890b-ffcb-4992-96c2-58d4459545a3")
+		)
+		(pin "4"
+			(uuid "15fdc17c-9480-4b08-b880-f3d93ebd1d85")
+		)
+		(instances
+			(project ""
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9436,8 +10418,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 209.55 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb191a6d-4b24-4f95-9207-b51a74b6709a")
+		(property "Reference" "U1"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005002487704059.html"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb6f310-17f1-4f72-b196-6b040f79de5a")
+		)
+		(pin "3"
+			(uuid "91205b7b-6d15-4a1d-b1f3-db438450d852")
+		)
+		(pin "2"
+			(uuid "d936ff5e-c2cf-4efa-9cf3-7f03bf97c9c5")
+		)
+		(instances
+			(project ""
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 374.65 83.82 0)
+		(at 368.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9446,7 +10634,7 @@
 		(fields_autoplaced yes)
 		(uuid "c524968f-73c4-4fe1-bd28-2b58faf3918b")
 		(property "Reference" "C7"
-			(at 378.46 82.5499 0)
+			(at 372.11 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +10643,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 378.46 85.0899 0)
+			(at 372.11 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +10652,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 375.6152 87.63 0)
+			(at 369.2652 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +10661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 374.65 83.82 0)
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +10670,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 374.65 83.82 0)
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +10679,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 374.65 83.82 0)
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,7 +10688,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 374.65 83.82 0)
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +10696,133 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006142309480.html"
-			(at 374.65 83.82 0)
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 368.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 368.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,102 +10840,6 @@
 			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 203.2 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c652903f-9107-4d5e-9e2f-efbdc64066f3")
-		(property "Reference" "C1"
-			(at 207.01 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 207.01 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 204.1652 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" ""
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006142309480.html"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a604f30-0e1f-4cd9-acfb-8a38e9257ce3")
-		)
-		(pin "1"
-			(uuid "d81ff3db-ba22-413c-bd5f-5ba967d17483")
-		)
-		(instances
-			(project ""
-				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9655,7 +10873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 187.96 90)
 			(effects
 				(font
@@ -9700,6 +10918,132 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005002384017954.html"
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 125.73 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 125.73 187.96 0)
 			(effects
 				(font
@@ -9817,7 +11161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.0752 204.47 0)
 			(effects
 				(font
@@ -9870,6 +11214,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 118.11 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b913834-695d-4ba7-9308-1908848233a8")
 		)
@@ -9880,6 +11350,209 @@
 			(project ""
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 110.49 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae77bbf-7215-47db-8427-ef70df7c8777")
+		(property "Reference" "SW2"
+			(at 110.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006151795450.html"
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7009a153-3e63-4420-853e-c415bf429a46")
+		)
+		(pin "1"
+			(uuid "147f68df-6385-41ca-b15b-6315e88d001b")
+		)
+		(instances
+			(project ""
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9966,6 +11639,132 @@
 				(hide yes)
 			)
 		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 175.26 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b46a4b6-a9f7-4674-ae9d-54960d2fe1e5")
 		)
@@ -9983,16 +11782,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 87.63 0)
+		(at 209.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f436d5ef-e363-4cd9-85de-86f4aadc799f")
-		(property "Reference" "#PWR06"
-			(at 203.2 93.98 0)
+		(uuid "e3eafd66-72a4-4a3f-8296-5207198d5ec0")
+		(property "Reference" "#PWR04"
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +11800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 92.71 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +11808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 87.63 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +11817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 87.63 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +11826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 87.63 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,12 +11835,234 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b91490d-b353-4125-9eb4-e1363c3c82e2")
+			(uuid "7feb2f55-a0c6-46e9-b1fb-a01bd9f68de2")
 		)
 		(instances
-			(project "devboard"
+			(project "usb-dmx"
 				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
-					(reference "#PWR06")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4253d32-fb32-4f4a-a5b2-04f12b40dcce")
+		(property "Reference" "C2"
+			(at 194.31 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 194.31 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 191.4652 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005006142309480.html"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c94c53-e0a3-44f0-936e-d279826bd727")
+		)
+		(pin "2"
+			(uuid "2d95517b-e0e9-4caa-89a4-d438cdacce6e")
+		)
+		(instances
+			(project "usb-dmx"
+				(path "/8846f2fa-8392-4ca0-b0ea-63a42c0612b6"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10115,7 +12136,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 360.68 83.82 0)
+		(at 354.33 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10124,7 +12145,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff6674e7-fbab-4e79-ac56-6e35490215d0")
 		(property "Reference" "C4"
-			(at 364.49 82.5499 0)
+			(at 358.14 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +12154,7 @@
 			)
 		)
 		(property "Value" "0u1F"
-			(at 364.49 85.0899 0)
+			(at 358.14 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +12163,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 361.6452 87.63 0)
+			(at 355.2952 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +12172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 83.82 0)
+			(at 354.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +12181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 360.68 83.82 0)
+			(at 354.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +12190,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 360.68 83.82 0)
+			(at 354.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +12199,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 360.68 83.82 0)
+			(at 354.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +12207,133 @@
 			)
 		)
 		(property "ALIEXPRESS" "https://de.aliexpress.com/item/1005003512666695.html"
-			(at 360.68 83.82 0)
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 354.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 354.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

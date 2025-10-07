@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.2+dfsg-1"
+      "Version": "9.0.5"
     },
-    "CreationDate": "2025-09-09T19:53:17+02:00"
+    "CreationDate": "2025-10-06T23:19:50+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "usb-dmx",
       "GUID": "7573622d-646d-4782-9e6b-696361645f70",
-      "Revision": "1"
+      "Revision": "1.2"
     },
     "Size": {
-      "X": 25.2,
-      "Y": 35.2
+      "X": 20.2,
+      "Y": 44.2
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
