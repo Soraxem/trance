@@ -14,3 +14,7 @@ To ensure a flexible and easy software, there is a Arduino library, that impleme
 
 - Centralized Provision and setup of trance-family controllers. Inspired by Unifi or Node red.
 - Integration with popular open and propriatary smart home systems.
+
+## License
+
+This Project is licensed under CERN-OHL-P
