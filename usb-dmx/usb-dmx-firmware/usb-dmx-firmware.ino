@@ -1,7 +1,7 @@
 /*
   Board: TRANCE USB-DMX rev: 1.2
   Board Library: esp32 v3.0.4
-  Dependencies: trance v0.0.2, esp_dmx v4.1.0, ArtNet v0.9.2
+  Dependencies: trance v0.0.3, esp_dmx v4.1.0, ArtNet v0.9.2
   Author: Samuel Hafen
 */
 
@@ -16,7 +16,7 @@ int enablePin = 3;
 
 dmx_port_t dmxPort = 1;
 
-uint8_t data[512];
+uint8_t data[DMX_PACKET_SIZE];
 
 // Prototype because compiler sad
 void callback(uint8_t test[]);
@@ -43,6 +43,8 @@ void loop() {
 }
 
 // recieves data from Trance
-void callback(const uint8_t channels[]) {
-  memcpy(data, channels, sizeof(data));
+void callback(uint8_t channels[]) {
+
+  // Index 0 from trance is DMX channel 1
+  memcpy(&data[1], channels, 512);
 }
