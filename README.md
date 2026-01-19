@@ -8,13 +8,13 @@ The Trance Device Family are open hardware devices that allow life wireless ligh
 
 Some lighting controllers do not implement ArtNet 4 with udp unicasting. UDP unicasting is essential for wireless lighting, because most WiFi routers ratelimit and occasionally hold back multicasted UDP packets. Unicasted UDP packets do not get ratelimited and are therefore the way to go.
 
-If your controller does not implement UDP multicasting as per ArtNet 4 Specification, you can use my translation layer called artman. Github Repo here.
+If your controller does not implement UDP multicasting as per ArtNet 4 Specification, you can use my translation layer called artman. [Github Repo here](https://github.com/Soraxem/artman).
 
 ## Software
 
 To ensure a flexible and easy software, there is a Arduino library, that implements the communication side of the software. By updating this Library with more Protocols or more reliable networking, we can expand the functionallity of every trance controller, despite hardware differences. This Library also allows for easy hardware development for DIY solutions.
 
-You can find the Library here on github.
+You can find the Library [here on github](https://github.com/Soraxem/trance-library).
 
 ## Hardware
 
