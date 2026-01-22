@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.1</Version>
+  <Author>Samuel Hafen</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Spots Universe 1" ID="0">
+    <Output Plugin="ArtNet" UID="192.168.178.39" Line="2">
+     <PluginParameters outputIP="192.168.178.39" outputUni="1"/>
+    </Output>
+   </Universe>
+   <Universe Name="Strips Universe 2" ID="1">
+    <Output Plugin="ArtNet" UID="192.168.178.39" Line="2">
+     <PluginParameters outputIP="192.168.178.39" outputUni="2"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+   <Universe Name="Universe 5" ID="4"/>
+   <Universe Name="Universe 6" ID="5"/>
+   <Universe Name="Universe 7" ID="6"/>
+   <Universe Name="Universe 8" ID="7"/>
+   <Universe Name="Universe 9" ID="8"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>RGBPanel</Model>
+   <Mode>RGB</Mode>
+   <Width>100</Width>
+   <Height>100</Height>
+   <ID>0</ID>
+   <Name>RGB Panel - Row 1</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>150</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>RGB Panel</Name>
+   <Size X="50" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="0">1</Head>
+   <Head X="2" Y="0" Fixture="0">2</Head>
+   <Head X="3" Y="0" Fixture="0">3</Head>
+   <Head X="4" Y="0" Fixture="0">4</Head>
+   <Head X="5" Y="0" Fixture="0">5</Head>
+   <Head X="6" Y="0" Fixture="0">6</Head>
+   <Head X="7" Y="0" Fixture="0">7</Head>
+   <Head X="8" Y="0" Fixture="0">8</Head>
+   <Head X="9" Y="0" Fixture="0">9</Head>
+   <Head X="10" Y="0" Fixture="0">10</Head>
+   <Head X="11" Y="0" Fixture="0">11</Head>
+   <Head X="12" Y="0" Fixture="0">12</Head>
+   <Head X="13" Y="0" Fixture="0">13</Head>
+   <Head X="14" Y="0" Fixture="0">14</Head>
+   <Head X="15" Y="0" Fixture="0">15</Head>
+   <Head X="16" Y="0" Fixture="0">16</Head>
+   <Head X="17" Y="0" Fixture="0">17</Head>
+   <Head X="18" Y="0" Fixture="0">18</Head>
+   <Head X="19" Y="0" Fixture="0">19</Head>
+   <Head X="20" Y="0" Fixture="0">20</Head>
+   <Head X="21" Y="0" Fixture="0">21</Head>
+   <Head X="22" Y="0" Fixture="0">22</Head>
+   <Head X="23" Y="0" Fixture="0">23</Head>
+   <Head X="24" Y="0" Fixture="0">24</Head>
+   <Head X="25" Y="0" Fixture="0">25</Head>
+   <Head X="26" Y="0" Fixture="0">26</Head>
+   <Head X="27" Y="0" Fixture="0">27</Head>
+   <Head X="28" Y="0" Fixture="0">28</Head>
+   <Head X="29" Y="0" Fixture="0">29</Head>
+   <Head X="30" Y="0" Fixture="0">30</Head>
+   <Head X="31" Y="0" Fixture="0">31</Head>
+   <Head X="32" Y="0" Fixture="0">32</Head>
+   <Head X="33" Y="0" Fixture="0">33</Head>
+   <Head X="34" Y="0" Fixture="0">34</Head>
+   <Head X="35" Y="0" Fixture="0">35</Head>
+   <Head X="36" Y="0" Fixture="0">36</Head>
+   <Head X="37" Y="0" Fixture="0">37</Head>
+   <Head X="38" Y="0" Fixture="0">38</Head>
+   <Head X="39" Y="0" Fixture="0">39</Head>
+   <Head X="40" Y="0" Fixture="0">40</Head>
+   <Head X="41" Y="0" Fixture="0">41</Head>
+   <Head X="42" Y="0" Fixture="0">42</Head>
+   <Head X="43" Y="0" Fixture="0">43</Head>
+   <Head X="44" Y="0" Fixture="0">44</Head>
+   <Head X="45" Y="0" Fixture="0">45</Head>
+   <Head X="46" Y="0" Fixture="0">46</Head>
+   <Head X="47" Y="0" Fixture="0">47</Head>
+   <Head X="48" Y="0" Fixture="0">48</Head>
+   <Head X="49" Y="0" Fixture="0">49</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="RGBMatrix" Name="New RGB Matrix 0">
+   <Speed FadeIn="0" FadeOut="0" Duration="30"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <Color Index="0">4294901760</Color>
+   <Color Index="1">4278190080</Color>
+   <Color Index="2">4278190080</Color>
+   <Color Index="3">4278190080</Color>
+   <Color Index="4">4278190080</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+   <Property Name="presetIndex" Value="Sunset"/>
+   <Property Name="orientation" Value="Radial"/>
+   <Property Name="presetSize" Value="40"/>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
