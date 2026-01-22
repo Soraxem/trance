@@ -122,6 +122,46 @@ enum Key {
 };
 }
 
+namespace Remote {
+  enum Key {
+    // Row 1 (Top Controls)
+    BRIGHT = 0, 
+    DIM = 1, 
+    OFF = 2, 
+    ON = 3,
+
+    // Row 2 (Primary Colors)
+    RED = 4, 
+    GREEN = 5, 
+    BLUE = 6, 
+    WHITE = 7,
+
+    // Row 3 (Secondary Colors)
+    PURPLE = 8, 
+    ORANGE = 9, 
+    YELLOW = 10, 
+    CYAN = 11,
+
+    // Row 4 (Effects & Music)
+    SPEED_UP = 12,    // Lightning icon with +
+    SETTINGS = 13,    // Sliders/EQ icon
+    SWITCH_DIR = 14,  // Left/Right arrows
+    MUSIC_UP = 15,    // Music note with +
+
+    // Row 5 (Adjustments)
+    SPEED_DOWN = 16,  // Lightning icon with -
+    PALETTE = 17,     // Paint palette icon
+    CYCLE = 18,       // Circular recycle arrows
+    MUSIC_DOWN = 19,  // Music note with -
+
+    // Row 6 (Timers & Modes)
+    TIMER_4H = 20,    // Clock with 4
+    TIMER_8H = 21,    // Clock with 8
+    MODE_1 = 22,
+    MODE_2 = 23
+  };
+}
+
 void handle_infrared() {
   if (IrReceiver.decode()) {
     Serial.print("Got Infrared! command: ");
