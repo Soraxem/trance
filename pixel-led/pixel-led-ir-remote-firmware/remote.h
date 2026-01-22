@@ -27,12 +27,14 @@ namespace Program {
     OCEAN, // Blue Key
     ABSTRACT, // White Key
     LINE, // Purple Key
+    PULSE, // Orange Key
     COUNT
   };
 
   program current = FIRE;
 
   uint8_t speed_level = 1;
+  uint16_t animation_state = 0;
 
   long int last_millis = 0;
 
@@ -200,6 +202,9 @@ void handle_infrared() {
             case Mode::PALETTE:
               palette_color = CRGB::Orange;
               break;
+            case Mode::PROGRAM:
+              Program::current = Program::PULSE;
+              break;
           }
           break;
 
@@ -239,37 +244,53 @@ void handle_modes() {
   }
 
   if (mode == Mode::PROGRAM) {
-    int animation_speed = map(Program::speed_level, 1, 17, 8, 140);
+
+    //uint8_t animation_speed = map(Program::speed_level, 1, 17, 8, 140);
+
+    long int current_millis = millis();
+    int delta = current_millis - Program::last_millis;
+    Program::last_millis = current_millis;
+
+    Program::animation_state += delta * Program::speed_level * 8;
+
+    uint8_t saw = map(Program::animation_state, 0, 65535, 0, 255);
+    uint8_t cosaw = 255 - saw;
     
 
       switch (Program::current) {
         case (Program::RAINBOW):
           for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = CHSV(i*4 + beat8(animation_speed), 255, 255);
+            leds[i] = CHSV(i*18 + saw, 255, 255);
           }
           break;
 
         case (Program::ABSTRACT):
           for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = CHSV(beatsin8(animation_speed, 140, 255, 0, i*9), 180, 255);
+            leds[i] = CHSV( map8( sin8(saw + i*14), 115, HUE_PINK) , 180, 255);
           }
           break;
 
         case (Program::FIRE):
           for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = CHSV(beatsin8(animation_speed, 0, 60, 0, i*5), 250, beatsin8(animation_speed, 150, 255, 0, i*7));
+            leds[i] = CHSV( map8( cos8(saw + i*31), HUE_RED, HUE_YELLOW), 250, map8( sin8(i*57), 70, 255));
           }
           break;
         
         case (Program::OCEAN):
           for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = CHSV(beatsin8(animation_speed, 120, 170, 0, i*2), beatsin8(animation_speed, 180, 255, 0, i*2), 255);
+            leds[i] = CHSV( map8( sin8(saw + i*60), HUE_AQUA, HUE_BLUE) , map8( sin8(i*3), 180, 255), 255);
           }
           break;
         
         case (Program::LINE):
           for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = CHSV(beat8(animation_speed), 255, beatsin8(animation_speed, 0, 255, 0, i*51 + beat8(animation_speed)) );
+            leds[i] = CHSV(cosaw + i*16, 255, cosaw + i*16);
+          }
+          break;
+        
+        case (Program::PULSE):
+          for (int i = 0; i < NUM_LEDS; i++) {
+            leds[i] = CHSV(map8( cosaw + i*16, HUE_YELLOW, HUE_BLUE), 255, cosaw + i*16);
           }
           break;
       }
