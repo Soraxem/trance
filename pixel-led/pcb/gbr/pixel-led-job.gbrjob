@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.5"
+      "Version": "9.0.7"
     },
-    "CreationDate": "2025-10-06T23:19:50+02:00"
+    "CreationDate": "2026-01-14T01:24:10+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "usb-dmx",
-      "GUID": "7573622d-646d-4782-9e6b-696361645f70",
+      "Name": "pixel-led",
+      "GUID": "70697865-6c2d-46c6-9564-2e6b69636164",
       "Revision": "1.2"
     },
     "Size": {
-      "X": 20.2,
-      "Y": 44.2
+      "X": 22.2,
+      "Y": 50.2
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "usb-dmx-F_Cu.gbr",
+      "Path": "pixel-led-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-B_Cu.gbr",
+      "Path": "pixel-led-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-F_Paste.gbr",
+      "Path": "pixel-led-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-B_Paste.gbr",
+      "Path": "pixel-led-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-F_Silkscreen.gbr",
+      "Path": "pixel-led-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-B_Silkscreen.gbr",
+      "Path": "pixel-led-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "usb-dmx-F_Mask.gbr",
+      "Path": "pixel-led-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "usb-dmx-B_Mask.gbr",
+      "Path": "pixel-led-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "usb-dmx-Edge_Cuts.gbr",
+      "Path": "pixel-led-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
