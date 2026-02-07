@@ -18,7 +18,7 @@ void callback(uint8_t test[]);
 
 #define NUM_LEDS 50
 
-#define DATA_PIN 4
+#define DATA_PIN 8
 CRGB leds[NUM_LEDS];
 
 // Include Remote Control handling
@@ -28,7 +28,7 @@ void setup() {
   // setup Trance
   delay(1000);
 
-  Trance.begin(150, callback, 9);
+  Trance.begin(150, callback, 0);
 
   FastLED.addLeds<WS2812, DATA_PIN, RGB>(leds, NUM_LEDS);
   FastLED.setBrightness(255);
