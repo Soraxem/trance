@@ -7134,7 +7134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-MINI-1U"
+		(property "Value" "ESP32-S3-MINI-1-N8"
 			(at 323.4533 53.34 0)
 			(effects
 				(font
